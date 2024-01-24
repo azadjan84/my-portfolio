@@ -1,27 +1,46 @@
-import React from 'react'
-import "./main.css"
-import myImg from "../../images/me.png"
+import React, { useState } from 'react'
+import "./door.css"
+import leftDoor from "../../images/left.jpg"
+import righDoor from "../../images/right.jpg"
+import helpPic from "../../images/hemp.webp"
 
 function MainPage() {
+
+  const [isOpen, setIsOpen] = useState(false);
+  setInterval(()=>{
+      setIsOpen(true)
+  },1000)
+
   return (
-    <div className='mainPage'> 
-        <div className='rightSide'>
-            <div className="rsr">
-              <div className="itsme">It's me</div>
-              <div className="myname">AZAD FARID</div>
-              <div className="myPassion">WEB DEVELOPER</div>
-              <p className="aboutMe">Team player, detail-oriented, sociable, always eager to improve my professional and interpersonal skills, consistently responsible for my work and tasks. I possess a talent for coming up with solutions for challenges.</p>
-            </div>
-            <div className="rsl">
-              <div className="rslItems">
+    <div className='mainPage'>
+      <div className="door">
+          <div className={`leftdoor ${isOpen? "open" :""}`} >
+              <img src={leftDoor} alt="" style={{
+                 resizeMode: 'cover',
+                 height: "100%",
+                 width: "100%",
 
-              </div>
-            </div>
+              }}   />
+          </div>
+          <div className={`rightdoor ${isOpen? 'open1' :''}`}>
+          <img src={righDoor}  style={{
+            resizeMode: 'cover',
+            height: "100%",
+            width: "100%",
+          }} alt="" />
+          </div>
+      </div>
+      
+      <div className="receip">
+        <div className="recepPerson">
+          <img src={helpPic} alt="not" />
         </div>
+      </div>
 
-        <div className='leftSide'>
-           <img src={myImg} alt="No photo" />
-        </div>
+
+
+        
+       
     </div>
   )
 }

@@ -1,65 +1,53 @@
 .mainPage{
-    width: 100vW;
+    width: 100vw;
     height: 100vh;
-    background-color: gray;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    
+    
 }
-.rightSide{
-    flex: 1;
-    background-color: red;
-    display: flex;
+
+.doorBody{
+    width: 100%;
     height: 100%;
-    flex-direction: row;
+    border: 1px solid black;
+    display: flex;
+    position: relative;
+    background-image: url("../../images/door.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-size: contain;
+    position: relative;
 }
 
-.leftSide{
-   flex: 1;
-   background-color: green;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   height: 100%;
+.doorLeft{
+    width: 50%;
+    background-color: blue;
+    position: absolute;
+    left: 0;
+    height: 90%;
+    transition: transform 1s;
 }
 
-.rsl{
-  background-color: aqua;
-  flex: 1;
-}
-.rsr{
-    flex: 1;
-    background-color: green;
-
-}
-.itsme{
-    background-color: black;
-    width: 15%;
-    height: 8%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-    color: white;
-    border-radius: 3px;
-    margin-bottom: 20px;
-
-}
-
-.myname{
-    font-weight: bold;
-    font-size: 4rem;
-}
-
-.myPassion{
-    font-size: large;
-    margin-top: 10px;
-}
-
-.aboutMe{
-
+.doorRight{
+    width: 49%;
+    background-color: blue;
+    position: absolute;
+    right: 0;
+    height: 90%;
+    transition: transform 1s;
 }
 
 
+
+.openLeft{
+    transform: translate(-100%);
+}
+
+.openRight{
+    transform: translate(100%);
+}
