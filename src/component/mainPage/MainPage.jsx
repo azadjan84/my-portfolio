@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import "./door.css"
 import leftDoor from "../../images/left.jpg"
 import righDoor from "../../images/right.jpg"
-import helpPic from "../../images/hemp.webp"
+import wlcpic from "../../images/wlcs.jpg"
 
 function MainPage() {
 
@@ -32,8 +32,13 @@ function MainPage() {
       </div>
       
       <div className="receip">
+
         <div className="recepPerson">
-          <img src={helpPic} alt="not" />
+          <img style={{
+            resizeMode:'cover',
+            width:'700px',
+            height:'700px'
+          }} src={wlcpic} alt="not" />
         </div>
       </div>
 
