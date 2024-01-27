@@ -4,11 +4,14 @@ import leftDoor from "../../images/left.jpg"
 import righDoor from "../../images/right.jpg"
 import wlcpic from "../../images/wlc.png"
 import wlcText from "../../images/wlcs.png"
+import Accuill from '../accuill/Accuill'
 
 function MainPage() {
 
   const [isOpen, setIsOpen] = useState(false);
   const [sayWlc, setSayWlc ] = useState(true)
+  const [accuil, setAccuil] = useState(false)
+  const [accuilTrans, setAcuillTrans] = useState(false)
 
   setInterval(()=>{
       setIsOpen(true)
@@ -16,13 +19,21 @@ function MainPage() {
   if(isOpen == true){
     setInterval(()=> {
       setSayWlc(false)
+      setAccuil(true)
     },3000)
   }
-
+  if(isOpen == true){
+    
+    setInterval(()=>{
+      setAcuillTrans(true)
+      
+    },3200)
+    
+  }
   return (
     <div className='mainPage'>
       <div className="door">
-          <div className={`leftdoor ${isOpen? "open" :""}`} >
+          <div className={`leftdoor ${isOpen? "open" :""} ${accuil? "receipNone":""}`}  >
               <img src={leftDoor} alt="" style={{
                  resizeMode: 'cover',
                  height: "100%",
@@ -39,7 +50,7 @@ function MainPage() {
           </div>
       </div>
       
-      <div className={`receip ${sayWlc? "" : "receipNone"}`} >
+      <div className={`receip ${sayWlc? "" : "receipAnimantion"} ${accuilTrans? "receipNone" :""}`} >
 
       
         <div className="recepPerson">
@@ -54,6 +65,7 @@ function MainPage() {
         </div>
          
       </div>
+      {accuil? <Accuill showThis={accuilTrans} /> : "" }
 
 
 
