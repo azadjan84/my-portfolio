@@ -16,22 +16,22 @@ function Accuill({showThis}) {
             <div className="aboutLeft">
               <div className="aboutLL">
                 <div className="floorF">
-                  <div className="box"><div className="box"><a href="#aboutmeComp">About Me</a></div></div>
-                  <div className="box"><div className="box"><a href="">Projects</a></div></div>
-                  <div className="box"><div className="box"><a href="">Skills</a></div></div>
-                  <div className="box"><div className="box"><a href="">Experiances</a></div></div>
+                  <a  href="#aboutmeComp" className="box"><div className="box"><a href="#aboutmeComp">About Me</a></div></a>
+                  <a href="#aboutmeComp" className="box"><div className="box"><a href="#aboutmeComp">Projects</a></div></a>
+                  <a href="#aboutmeComp" className="box"><div className="box"><a href="#aboutmeComp">Skills</a></div></a>
+                  <a href="#aboutmeComp" className="box"><div className="box"><a href="#aboutmeComp">Experiances</a></div></a>
                 </div>
                 <div className="floorS">
-                <div className="box"><div className="box"><a href="">Hobby</a></div></div>
-                  <div className="box"><div className="box"><a href="">Free Time</a></div></div>
-                  <div className="box"><div className="box"><a href="">Values</a></div></div>
-                  <div className="box"><div className="box"><a href="">Photos</a></div></div>
+                <a href="#aboutmeComp" className="box"><div className="box"><a href="#aboutmeComp">Hobby</a></div></a>
+                  <a href="#aboutmeComp" className="box"><div className="box"><a href="#aboutmeComp">Free Time</a></div></a>
+                  <a href="#aboutmeComp" className="box"><div className="box"><a href="#aboutmeComp">Values</a></div></a>
+                  <a href="#aboutmeComp" className="box"><div className="box"><a href="#aboutmeComp">Photos</a></div></a>
                 </div>
                 <div className="floorT">
-                <div className="box"><div className="box"><a href="">Skills</a></div></div>
-                  <div className="box"><div className="box"><a href="">LinkedIn</a></div></div>
-                  <div className="box"><div className="box"><a href="">Gitub</a></div></div>
-                  <div className="box"><div className="box"><a href="">Contact</a></div></div>
+                <a href="#aboutmeComp" className="box"><div className="box"><a href="#aboutmeComp">Skills</a></div></a>
+                  <a href="#aboutmeComp" className="box"><div className="box"><a href="#aboutmeComp">LinkedIn</a></div></a>
+                  <a href="#aboutmeComp" className="box"><div className="box"><a href="#aboutmeComp">Gitub</a></div></a>
+                  <a href="#aboutmeComp" className="box"><div className="box"><a href="#aboutmeComp">Contact</a></div></a>
                 </div>
               </div>
             </div>
