@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import "./door.css"
-import me1 from "./images/me1.jpg"
-import me2 from "./images/me2.jpg"
-import me3 from "./images/me3.jpg"
+
 
 
 function MainPage() {
@@ -41,6 +39,7 @@ function MainPage() {
             <div className="line"></div>
           </div>
         </div>
+        
     </div>
   )
 }

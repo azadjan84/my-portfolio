@@ -1,0 +1,122 @@
+.menu{
+    width: 100vw;
+    height: 100vh;  
+    background: linear-gradient(to right, black 0%, rgba(0, 0, 0, 0.9) 10%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0.7) 30%, rgba(0, 0, 0, 0.7) 30%, #333 100%);
+    color: white;
+    display: flex;
+    
+}
+
+.meunBody{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.mLeft{
+    flex: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuContainer{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fFloor{
+    flex: 1;
+    display: flex;
+}
+.sFloor{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+.tFloor{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.mBox{
+    width: 130px;
+    height: 180px;
+    background-color: transparent;
+    margin: 5px;
+    perspective: 600px;
+    position: relative;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    z-index: 1;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 10px 10px rgb(41, 39, 39);
+    font-weight: bold;
+    font-style: italic;
+    overflow-y: hidden;
+}
+
+.mBox:hover{
+    transform: scale(1.05);
+}
+
+
+.mRight{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    padding-right: 33px;
+    
+}
+
+.mRt{
+    flex: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+
+}
+.line{
+    border: 1px solid black;
+}
+.mRm{
+    flex: 4;
+    display: flex;
+    justify-content: center;
+}
+
+.pics{
+    width: 60%;
+    background-image: url("./images/accuilgril.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 40%;
+    background-size: contain;
+    background-position: center;
+    box-shadow: 10px -2px black;
+    
+}
+
+.mRb{
+    flex: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+
