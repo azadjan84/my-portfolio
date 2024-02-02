@@ -22,7 +22,7 @@
 }
 .sLeft{
     flex: 0.3;
-    background-color: green;
+    background-color: rgb(10, 10, 10);
 }
 
 .sMiddle{
@@ -32,22 +32,44 @@
     flex-direction: column;
     padding-top: 25px;
     padding-left: 15px;
-    
-
 }
+
+
 .sMT{
     flex: 1;
     display: flex;
-    flex-direction: row;
+    width: 150%;
+    animation: sliderAnimation 7.5s infinite alternate;
+
 }
 
 .sMB{
     flex: 1;
     display: flex;
+    width: 150%;
+    animation: sliderAnimation 7s infinite alternate;
 }
 
+@keyframes sliderAnimation{
+    from {
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-400px);
+    }
+}
+
+.sMTBox{
+    width: 150%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
 
 .sRight{
     flex: 0.3;
-    background-color: green;
+    background-color: rgb(10, 10, 10);
+    
 }
+
+

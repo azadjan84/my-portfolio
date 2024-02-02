@@ -7,21 +7,28 @@ function Projects() {
     <div className='projectContainer'>
       <div className="pcBody">
           <div className="slides">
-              <div className="sLeft"></div>
+              
               <div className="sMiddle">
                 <div className="sMT">
-                  <Slide />
-                  <Slide />
-                  <Slide />
+                  <div className="sMTBox">
+                    <Slide />
+                    <Slide />
+                    <Slide />
+                    <Slide />
+                    <Slide />
+                  </div>  
                 </div>
                 <div className="sMB">
+                  <div className="sMTBox">
                 <Slide />
                 <Slide />
                 <Slide />
+                <Slide />
+                <Slide />
+                  </div>
               </div>
               </div>
               
-              <div className="sRight"></div>
           </div>
       </div>
 
