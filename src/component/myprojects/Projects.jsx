@@ -12,6 +12,7 @@ function Projects() {
               
               <div className="sMiddle">
                 <div className="sMT">
+                  <h1 style={{width:"100%", textAlign:"center", marginBottom:"15px" }}>Projects with online link</h1>
                   <div className="sMTBox">
                     {
                       linkProjects.map((item,index) => (
@@ -23,9 +24,10 @@ function Projects() {
                   </div>  
                 </div>
                 <div className="sMB">
+                  <h1 style={{width:"100%", textAlign:"center", marginBottom:"15px" }}>Projects without online link</h1>
                   <div className="sMTBox">
                   {
-                      linkProjects.map((item,index) => (
+                      unLinkProjects.map((item,index) => (
                         <Slide key={index} projectTile={item.projectTile} language={item.language} onlineLink={item.onlineLink}  logo={item.logo} poster={item.poster} github={item.github} description={item.description} />
                       ))
                     }
