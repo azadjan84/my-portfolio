@@ -24,6 +24,7 @@ import koeling from "./images/koelling.jpeg"
 const linkProjects = [
 
     {
+        id:1,
         projectTile:"Ecommerce",
         language:"HTML, CSS, JS",
         onlineLink:"https://mohammadazadbc.github.io/Ecommerce/",
@@ -34,6 +35,7 @@ const linkProjects = [
     },
    
          {
+            id:2,
         projectTile:"My Old Portfolio",
         language:"React & Node JS",
         onlineLink:"https://azad-portfolio-pro.netlify.app/",
@@ -43,6 +45,7 @@ const linkProjects = [
         description:"This is my old portfolio built with React and Node.js. I copied the design and rebuilt it following a tutorial from JavaScript Mastery. It is a truly amazing project, though it holds more significance in terms of learning rather than the satisfaction of using my creativity to construct a remarkable piece of work. This realization prompted me to start building my new portfolio, relying on my imagination and drawing inspiration from various aspects of life."
     },
     {
+        id:3,
         projectTile:"Website With Modern UI/UX",
         language:"React & Tailwind",
         onlineLink:"https://modern-ui-ux-app.netlify.app/",
@@ -52,6 +55,7 @@ const linkProjects = [
         description:"This is an amazing project built with React and Tailwind CSS technology. The design is inspired by JavaScript Mastery, and as I constructed this project, it became an incredible endeavor. It represents a futuristic website with stunning design elements."
     },
     {
+        id:4,
         projectTile:"Fitness Exercises App ",
         language:"React & RapidAPI",
         onlineLink:"https://azad-gym.netlify.app/",
@@ -61,6 +65,7 @@ const linkProjects = [
         description:"This is an amazing project built with React and RapidAPI. On this website, you can discover exercises for each part of the body presented in GIF format. The exercises are categorized by the corresponding body part, providing detailed instructions on how to perform them. Additionally, there is a search bar that allows you to find specific exercises for particular areas of the body."
     },
     {
+        id:5,
         projectTile:"Ecommerce",
         language:"HTML, CSS, JS",
         onlineLink:"https://mohammadazadbc.github.io/Ecommerce/",
