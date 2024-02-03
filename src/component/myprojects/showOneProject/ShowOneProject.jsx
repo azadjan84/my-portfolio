@@ -6,7 +6,9 @@ import eyeIcon from "../slides/images/eye.png"
 import { linkProjects } from '../data';
 function ShowOneProject({showProjectId}) {
   let itemId= showProjectId-1;
-    console.log(linkProjects[itemId].description)
+    console.log(linkProjects[itemId].language.forEach(item =>{
+      console.log(item.name)
+    }) )
   return (
     <div className='oneContainer'>
         <div className="divOneBody">
@@ -24,7 +26,16 @@ function ShowOneProject({showProjectId}) {
               </div>
             </div>
             <div className="oneRight">
-              
+              <div className="oneRightBody">
+              <div className="desc">
+                  <p>About the project</p>
+                  <div className="descText"> {linkProjects[itemId].description} </div>
+                </div>
+                <div className="languages">
+                      langues
+                </div>
+              </div>
+               
             </div>
 
         </div>

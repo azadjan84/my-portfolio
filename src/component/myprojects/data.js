@@ -21,12 +21,27 @@ import bokking1 from "./images/booking1.png"
 import chat1 from "./images/chat1.png"
 import koeling from "./images/koelling.jpeg"
 
+
+import reactIcon from "./images/react.png"
+import jsIcon from "./images/js.png"
+import springIcon from "./images/spring-boot.png"
+import cssIcon from "./images/css.png"
+import htmlIcon from "./images/html.png"
+import tailwindIcon from "./images/tailwind.png"
+import nodeIcon from "./images/node.png"
+import rapidIcon from "./images/rapidApi.png"
+import mongoIcon from "./images/mongo.png"
+
 const linkProjects = [
 
     {
         id:1,
         projectTile:"Ecommerce",
-        language:"HTML, CSS, JS",
+        language:[
+            {name:"HTML", icon:htmlIcon},
+            {name:"CSS", icon:cssIcon},
+            {name:"JAVASCRIPT", icon:jsIcon},
+        ], 
         onlineLink:"https://mohammadazadbc.github.io/Ecommerce/",
         logo:ecomerce1,
         poster:ecommerceImg,
@@ -37,7 +52,11 @@ const linkProjects = [
          {
             id:2,
         projectTile:"My Old Portfolio",
-        language:"React & Node JS",
+        language:[
+            {name:"React", icon:reactIcon},
+            {name:"Node JS", icon: nodeIcon},
+            {name:"CSS", icon: cssIcon},
+        ],
         onlineLink:"https://azad-portfolio-pro.netlify.app/",
         logo:portfolio1,
         poster:oldPortfolio,
@@ -47,7 +66,11 @@ const linkProjects = [
     {
         id:3,
         projectTile:"Website With Modern UI/UX",
-        language:"React & Tailwind",
+        language:[
+            {name:"React", icon:reactIcon},
+            {name:"CSS", icon:cssIcon},
+            {name:"Tailwind", icon:tailwindIcon},
+        ],
         onlineLink:"https://modern-ui-ux-app.netlify.app/",
         logo:moderui1,
         poster:moderUi,
@@ -57,7 +80,12 @@ const linkProjects = [
     {
         id:4,
         projectTile:"Fitness Exercises App ",
-        language:"React & RapidAPI",
+        language:[
+            {name:"React", icon:reactIcon},
+            {name:"CSS", icon:cssIcon},
+            {name:"RapidAPI", icon:rapidIcon},
+        ],
+
         onlineLink:"https://azad-gym.netlify.app/",
         logo:fitness1,
         poster:FitnessImg,
@@ -67,7 +95,11 @@ const linkProjects = [
     {
         id:5,
         projectTile:"Ecommerce",
-        language:"HTML, CSS, JS",
+        language:[
+            {name:"React", icon:reactIcon},
+            {name:"CSS", icon:cssIcon},
+            {name:"Tailwind", icon:tailwindIcon},
+        ],
         onlineLink:"https://mohammadazadbc.github.io/Ecommerce/",
         logo:ecomerce1,
         poster:ecommerceImg,
@@ -83,7 +115,11 @@ const linkProjects = [
 const unLinkProjects =[
     {
         projectTile:"Movie Trailer Showcase",
-        language:"React & Spring boot",
+        language:[
+            {name:"React", icon:reactIcon},
+            {name:"CSS", icon:cssIcon},
+            {name:"Spring boot", icon:springIcon},
+        ],
         onlineLink:"",
         logo:movie1,
         poster:moveiPoster,
@@ -92,7 +128,11 @@ const unLinkProjects =[
     },
     {
         projectTile:"YouTube Clone Application ",
-        language:"React CSS",
+        language:[
+            {name:"React", icon:reactIcon},
+            {name:"CSS", icon:cssIcon},
+            {name:"API", icon:rapidIcon},
+        ],
         onlineLink:"",
         logo:youtube1,
         poster:youtube,
@@ -101,7 +141,11 @@ const unLinkProjects =[
     },
     {
         projectTile:"Booking Website",
-        language:"React Node JS MongoDB",
+        language:[
+            {name:"React", icon:reactIcon},
+            {name:"Node JS", icon:nodeIcon},
+            {name:"Mongo DB", icon:mongoIcon},
+        ],
         onlineLink:"",
         logo:bokking1,
         poster:booking,
@@ -110,7 +154,11 @@ const unLinkProjects =[
     },
     {
         projectTile:"Chat App",
-        language:"JS Node JS",
+        language:[
+            {name:"Javascript", icon:jsIcon},
+            {name:"CSS", icon:cssIcon},
+            {name:"Node JS", icon:nodeIcon},
+        ],
         onlineLink:"",
         logo:chat1,
         poster:chat,
@@ -119,7 +167,10 @@ const unLinkProjects =[
     },
     {
         projectTile:"Proceskoeling Website",
-        language:"CSS React",
+        language:[
+            {name:"React", icon:reactIcon},
+            {name:"CSS", icon:cssIcon},
+        ],
         onlineLink:"",
         logo:koeling,
         poster:jmr,
