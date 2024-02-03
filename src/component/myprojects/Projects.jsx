@@ -7,6 +7,7 @@ import ShowOneProject from './showOneProject/ShowOneProject';
 function Projects() {  
   const [showProject, setShowProject] = useState(true)
   const [showProjectId, setShowProjectId] = useState(0)
+  const [noLink, setNoLink] = useState(false)
 
   return (
     <div className="projectContainer" >
@@ -24,7 +25,7 @@ function Projects() {
                     onlineLink={item.onlineLink}  logo={item.logo} poster={item.poster} github={item.github}
                      description={item.description} showProject={showProject} setShowProject={setShowProject}
                      showProjectId={showProjectId} setShowProjectId={setShowProjectId}
-                     itemId={item.id} />
+                     itemId={item.id} setNoLink={setNoLink} />
                   ))
                 }
                 
@@ -36,7 +37,12 @@ function Projects() {
               <div className="sMTBox">
               {   
                   unLinkProjects.map((item,index) => (
-                    <Slide key={index} projectTile={item.projectTile} language={item.language} onlineLink={item.onlineLink}  logo={item.logo} poster={item.poster} github={item.github} description={item.description} />
+                    <Slide key={index} projectTile={item.projectTile} language={item.language} onlineLink={item.onlineLink} 
+                     logo={item.logo} poster={item.poster} github={item.github} description={item.description}
+                     showProject={showProject} setShowProject={setShowProject}
+                     showProjectId={showProjectId} setShowProjectId={setShowProjectId}
+                     itemId={item.id} setNoLink={setNoLink}
+                     />
                   ))
                 }
               </div>
@@ -46,7 +52,9 @@ function Projects() {
       </div>
         :
           <div className="OneProject">
-            <ShowOneProject showProjectId={showProjectId} />
+            <ShowOneProject showProjectId={showProjectId} setShowProject={setShowProject} showProject={showProject}
+              noLink={noLink} setNoLink={setNoLink}
+            />
           </div>
         }
           

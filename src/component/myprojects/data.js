@@ -114,6 +114,7 @@ const linkProjects = [
 
 const unLinkProjects =[
     {
+        id:1,
         projectTile:"Movie Trailer Showcase",
         language:[
             {name:"React", icon:reactIcon},
@@ -127,6 +128,7 @@ const unLinkProjects =[
         description:"This project, developed with Spring Boot and React, leverages MongoDB as its database. It retrieves movie details from the database, showcasing names, posters, and concise descriptions. Each movie entry is equipped with a clickable button for viewing the trailer, and users can contribute reviews for the films."
     },
     {
+        id:2,
         projectTile:"YouTube Clone Application ",
         language:[
             {name:"React", icon:reactIcon},
@@ -140,6 +142,7 @@ const unLinkProjects =[
         description:"modern web and responsive build with React JS application consisting of stunning video sections, custom categories, channel pages, and, most importantly, you can play videos straight from your YouTube Clone App!",
     },
     {
+        id:3,
         projectTile:"Booking Website",
         language:[
             {name:"React", icon:reactIcon},
@@ -153,6 +156,7 @@ const unLinkProjects =[
         description:"This is a full-stack project with React and Node.js. It is an absolutely amazing project that allows you to book hotels. You can search for hotels in different cities, filter by price, number of people, date, and the number of rooms. You can also create an account or log in, and then proceed to reserve a room.",
     },
     {
+        id:4,
         projectTile:"Chat App",
         language:[
             {name:"Javascript", icon:jsIcon},
@@ -166,10 +170,12 @@ const unLinkProjects =[
         description: "It is a project built with Node.js and Socket.IO that allows two users to chat together in real-time. In this project, more focus is placed on functionality rather than design." ,
     },
     {
+        id:5,
         projectTile:"Proceskoeling Website",
         language:[
             {name:"React", icon:reactIcon},
             {name:"CSS", icon:cssIcon},
+            {name:"JS", icon: jsIcon}
         ],
         onlineLink:"",
         logo:koeling,

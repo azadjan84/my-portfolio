@@ -14,12 +14,22 @@ function Slide({
   setShowProject,
   showProjectId,
   setShowProjectId,
-  itemId
+  itemId,
+  setNoLink
 }) {
 
   const showOne = (id)=>{
-    setShowProject(false)
-    setShowProjectId(id)
+    if(onlineLink ==""){
+        setNoLink(false)
+      setShowProject(false)
+      setShowProjectId(id)
+
+    }
+    else{
+      setShowProject(false)
+      setShowProjectId(id)
+      setNoLink(true)
+    }
   }
   return (
     <div onClick={() => showOne(itemId)} className='slideContainer' style={{backgroundImage: `url(${logo})`}}>

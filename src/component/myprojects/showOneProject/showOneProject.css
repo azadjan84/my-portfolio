@@ -130,5 +130,31 @@
     flex: 1;
     box-shadow: 15px 15px rgb(36, 35, 35);
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 18px;
+}
+
+.buildTechnologie{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+
+}
+
+.languages p{
+    font-weight: bold;
+    font-size: 18px;
     
+}
+.technologies{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.technologies img{
+    width: 90px;
+    height: 90px;
 }
