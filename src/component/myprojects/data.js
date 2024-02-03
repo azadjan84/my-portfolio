@@ -8,12 +8,19 @@ import booking from "./images/booking.png"
 import chat from "./images/chat.png"
 import jmr from "./images/jmr.png"
 
+
+import portfolio1 from "./images/portfolio1.jpg"
+import ecomerce1 from "./images/ecomerce1.png"
+import moderui1 from "./images/moderui1.png"
+import fitness1 from "./images/fitness1.png"
+
 const linkProjects = [
 
     {
         projectTile:"Ecommerce",
         language:"HTML, CSS, JS",
         onlineLink:"https://mohammadazadbc.github.io/Ecommerce/",
+        logo:ecomerce1,
         poster:ecommerceImg,
         github:"https://github.com/Mohammadazadbc/Ecommerce?tab=readme-ov-file",
         description:"This is an E-commerce project built with HTML, CSS, and JS. I found the design on Google, and while it is not fully functional, it features an amazing design. It was a valuable project in terms of learning and provided a great opportunity for skill development."
@@ -23,6 +30,7 @@ const linkProjects = [
         projectTile:"My old Portfolio",
         language:"React & Node JS",
         onlineLink:"https://azad-portfolio-pro.netlify.app/",
+        logo:portfolio1,
         poster:oldPortfolio,
         github:"https://github.com/Mohammadazadbc/My-Portfolio?tab=readme-ov-file",
         description:"This is my old portfolio built with React and Node.js. I copied the design and rebuilt it following a tutorial from JavaScript Mastery. It is a truly amazing project, though it holds more significance in terms of learning rather than the satisfaction of using my creativity to construct a remarkable piece of work. This realization prompted me to start building my new portfolio, relying on my imagination and drawing inspiration from various aspects of life."
@@ -31,6 +39,7 @@ const linkProjects = [
         projectTile:"Website with Modern UI/UX",
         language:"React & Tailwind",
         onlineLink:"https://modern-ui-ux-app.netlify.app/",
+        logo:moderui1,
         poster:moderUi,
         github:"https://github.com/Mohammadazadbc/Modern-ui-ux-app",
         description:"This is an amazing project built with React and Tailwind CSS technology. The design is inspired by JavaScript Mastery, and as I constructed this project, it became an incredible endeavor. It represents a futuristic website with stunning design elements."
@@ -39,6 +48,7 @@ const linkProjects = [
         projectTile:"Fitness Exercises App ",
         language:"React & RapidAPI",
         onlineLink:"https://azad-gym.netlify.app/",
+        logo:fitness1,
         poster:FitnessImg,
         github:"https://github.com/Mohammadazadbc/Fitness-Exercises-App?tab=readme-ov-file",
         description:"This is an amazing project built with React and RapidAPI. On this website, you can discover exercises for each part of the body presented in GIF format. The exercises are categorized by the corresponding body part, providing detailed instructions on how to perform them. Additionally, there is a search bar that allows you to find specific exercises for particular areas of the body."
@@ -47,6 +57,7 @@ const linkProjects = [
         projectTile:"Ecommerce",
         language:"HTML, CSS, JS",
         onlineLink:"https://mohammadazadbc.github.io/Ecommerce/",
+        logo:ecomerce1,
         poster:ecommerceImg,
         github:"https://github.com/Mohammadazadbc/Ecommerce?tab=readme-ov-file",
         description:"This is an E-commerce project built with HTML, CSS, and JS. I found the design on Google, and while it is not fully functional, it features an amazing design. It was a valuable project in terms of learning and provided a great opportunity for skill development."
@@ -99,4 +110,4 @@ const unLinkProjects =[
         description:"This was a project that I developed for a friend who started a new business and asked me to create a website for him. I completed a significant portion of the website at the time, but I faced challenges in putting it online with a good link and making it discoverable on Google for people to find.",
     },
 ]
-export default linkProjects
+export {linkProjects,unLinkProjects}; 

@@ -1,8 +1,16 @@
 import React from 'react'
 import "./slide.css"
-function Slide() {
+function Slide({
+  projectTile,
+  language,
+  onlineLink,
+  logo,
+  poster,
+  github,
+  description
+}) {
   return (
-    <div className='slideContainer'>Slide</div>
+    <div className='slideContainer' style={{backgroundImage: `url(${logo})`}}>{projectTile} </div>
   )
 }
 
