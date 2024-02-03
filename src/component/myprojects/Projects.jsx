@@ -24,11 +24,11 @@ function Projects() {
                 </div>
                 <div className="sMB">
                   <div className="sMTBox">
-                <Slide />
-                <Slide />
-                <Slide />
-                <Slide />
-                <Slide />
+                  {
+                      linkProjects.map((item,index) => (
+                        <Slide key={index} projectTile={item.projectTile} language={item.language} onlineLink={item.onlineLink}  logo={item.logo} poster={item.poster} github={item.github} description={item.description} />
+                      ))
+                    }
                   </div>
               </div>
               </div>

@@ -46,7 +46,7 @@
 .sMB{
     flex: 1;
     display: flex;
-    width: 150%;
+    width: 140%;
     animation: sliderAnimation 7s infinite alternate;
 }
 
@@ -55,7 +55,7 @@
         transform: translateX(0);
     }
     to{
-        transform: translateX(-400px);
+        transform: translateX(-200px);
     }
 }
 
