@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import "./skills.css"
 import htmlIcon from "./images/html.png"
 import reactIcon from "./images/react.png"
@@ -7,15 +7,17 @@ import cssIcon from "./images/css.png"
 import javaIcon from "./images/java.png"
 import mysqlgIcon from "./images/mysql.png"
 
+
+
+
 function Skills() {
+
+
   return (
-    <div className='skills'>
+    <div className='skills' id='skills'>
         <div className="skillsContainer">
             <div className="sTitle"><h2>Skills</h2></div>
             <div className="sContainer">
-
-
-
                 <div className="skillBox">
                     <div className="sPercentage" style={{borderColor:"#61DAFB",
                      borderBlockEndWidth: "5px", backgroundColor:"#7ea0aa"  }}><p style={{color:"#61DAFB", fontWeight:"bold"}}>80%</p></div>

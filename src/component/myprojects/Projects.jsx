@@ -9,8 +9,10 @@ function Projects() {
   const [showProjectId, setShowProjectId] = useState(0)
   const [noLink, setNoLink] = useState(false)
 
+
+
   return (
-    <div className="projectContainer" >
+    <div className="projectContainer" id='projects' >
       <div className="pcBody">
         {showProject? 
           <div className="slides">
