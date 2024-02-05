@@ -1,0 +1,56 @@
+.exContainer{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, black 0%, rgba(0, 0, 0, 0.9) 10%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0.7) 30%, rgba(0, 0, 0, 0.7) 30%, #333 100%);
+}
+
+.exBody{
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+.exLeft{
+    flex: 1;
+    background-color: rgb(43, 40, 40);
+    display: flex;
+    flex-direction: column;
+}
+
+.experianceTitle{
+    flex: 0.2;
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+
+.expeMenu{
+    flex: 0.8;
+    width: 100%;
+}
+
+.expeMenu ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.expeMenu ul li{
+    color: white;
+    margin: 15px 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.exRight{
+    flex: 3.5;
+}
