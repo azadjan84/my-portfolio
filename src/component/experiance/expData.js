@@ -1,0 +1,68 @@
+
+const experiances = [
+    {
+        id:1,
+        workTitle:"BARMAN",
+        durantion:"1 year",
+        startDate:"01/02/23"  ,
+        endDate:"01/02/2024"  ,
+        nameOfCompany:"PianoFabriek (House Of The Flemish Community Commission(VGV)",
+        typeofWork:"FULL TIME",
+        whereJob:"Brussels",
+        tasks: ["Contact & service", "Multitasking","Teamwork","Conflict resolution","Organization", "Stock Management"]
+    },
+
+
+    {
+        id:2,
+        workTitle:"PING PONG COORDINATOR",
+        durantion:"2.5 year",
+        startDate:"01/04/2021"  ,
+        endDate:"01/09/2023"  ,
+        nameOfCompany:"SINGA ( Through social activities establish connections between Brussels residents and newcomers).",
+        typeofWork:"PART TIME",
+        whereJob:"Brussels",
+        tasks: ["Greeting and registration of newcomers", "Ping pong skill development","Ping pong tournaments organization.","Coordination and management of PP event", "Decision making"]
+    },
+
+    {
+        id:3,
+        workTitle:"WEB DEVELOPMENT INTERNSHIP",
+        durantion:"3 Months)",
+        startDate:"01/10/2022"  ,
+        endDate:"31/01/2023"  ,
+        nameOfCompany:"LIKI (A startup that was developing a new communication app.)",
+        typeofWork:"FULL TIME",
+        whereJob:"Brussels",
+        tasks: ["Active participation in the development of the DUG app including the creation of the app's website from scratch.","Contribution to the design phase in Figma","Applied design elements and APIs in the app using React technology."]
+    },
+
+    {
+        id:4,
+        workTitle:"SALESPERSON AT PRIMARK",
+        durantion:"6 Months",
+        startDate:"01/06/2019"  ,
+        endDate:"01/01/2020"  ,
+        nameOfCompany:"PRIMARK",
+        typeofWork:"FULL TIME",
+        whereJob:"Brussels",
+        tasks: ["Sales assistant", "Cash and customer management","Teamwork","Stock management"]
+    },
+
+    {
+        id:5,
+        workTitle:"THEATRE PERFORMANCE",
+        durantion:"4 Months",
+        startDate:"01/02/2019"  ,
+        endDate:"01/06/2019"  ,
+        nameOfCompany:"TOUR A PLOBM CULTURAL CENTER",
+        typeofWork:"Once a week",
+        whereJob:"Brussels",
+        tasks: ["Communication", "Teamwork,","Stage Presence:"]
+    },
+    
+
+];
+
+
+export default experiances;

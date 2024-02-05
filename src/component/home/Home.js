@@ -4,6 +4,7 @@ import MainPage from '../mainPage/MainPage'
 import Menu from '../menu/Menu'
 import Projects from '../myprojects/Projects'
 import Skills from '../skills/Skills'
+import Experiance from '../experiance/Experiance'
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Menu/>
       <Projects />
       <Skills />
+      <Experiance />
       <Footer />
     </div>
   )
