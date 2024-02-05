@@ -41,16 +41,155 @@
     flex-direction: column;
     text-align: center;
     padding-top: 50px;
+    color: white;
     
 }
 .expeMenu ul li{
-    color: white;
     margin: 15px 0;
     font-weight: bold;
     cursor: pointer;
 }
-
+.expeMenu ul li:hover{
+    opacity: 0.8;
+}
+.slected{
+    color: yellow;
+}
 
 .exRight{
     flex: 3.5;
+    height: 100%;
+    display: flex;
+}
+
+.exRleft{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-bottom: 100px;
+    background: linear-gradient(to top, rgb(26, 24, 24) 0%, rgba(26, 24, 24, 0.9) 10%, #333 15%);
+}
+
+.workPlace{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.placeLog{
+    flex: 1;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.placeLog img{
+    width: 100%;
+    height: 100%;
+}
+.placdesc{
+    flex: 1;
+    width: 100%;
+    color: white;
+}
+.placdesc h3{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.workTitle{
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.duration{
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.startDate{
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.typeOfWork{
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.whereWork{
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.exRmid{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    background: linear-gradient(to top, rgb(26, 24, 24) 0%, rgba(26, 24, 24, 0.9) 10%, #333 15%);
+}
+
+.workImg{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    padding-bottom: 100px;
+    overflow: hidden;
+    position: relative;
+
+
+}
+
+.workImg img{
+    position: absolute;
+   width: 600px;
+   height: 500px;
+   right: -70px;
+}
+
+/* Right side of the page*/
+
+.exRright{
+    flex: 1;
+    padding-bottom: 100px;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    background: linear-gradient(to top, rgb(26, 24, 24) 0%, rgba(26, 24, 24, 0.9) 10%, #333 15%);
+}
+
+.exRdesc{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+.workSymbol{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.workSymbol img{
+    width: 80%;
+    height: 100%;
+}
+.taskDesc{
+    flex: 1;
+}
+
+
+.taskDesc{
+    width: 100%;
+    height: 100%;
+}
+.tasks{
+    padding-left: 20px;
+    padding-top: 30px;
+    color: white;
+    font-size: 18px;
+}
+
+.tasks p{
+    margin-top: 5px;
 }
