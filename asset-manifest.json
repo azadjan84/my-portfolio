@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.71ee2de6.css",
-    "main.js": "/my-portfolio/static/js/main.c628ccc2.js",
+    "main.css": "/my-portfolio/static/css/main.ae22f2b2.css",
+    "main.js": "/my-portfolio/static/js/main.6f5aac37.js",
     "static/media/youtube.png": "/my-portfolio/static/media/youtube.255f36e1d2466b751851.png",
     "static/media/booking.png": "/my-portfolio/static/media/booking.d8fbcf0017d8f8665e2e.png",
     "static/media/fitness.png": "/my-portfolio/static/media/fitness.56ccdf962ccae65ebea1.png",
     "static/media/movie.png": "/my-portfolio/static/media/movie.a95201ce9802f64b1c78.png",
     "static/media/booking1.png": "/my-portfolio/static/media/booking1.0ea37cba7d87166e4082.png",
     "static/media/oldPortfolio.png": "/my-portfolio/static/media/oldPortfolio.0e9445ba8bead0e7c7bc.png",
+    "static/media/piano.jpg": "/my-portfolio/static/media/piano.1ad8a7b81b370b52f5f9.jpg",
     "static/media/moderui.png": "/my-portfolio/static/media/moderui.d7d00476bf0175711b0f.png",
     "static/media/ecomerce1.png": "/my-portfolio/static/media/ecomerce1.c5170e17c6d33d319919.png",
     "static/media/jmr.png": "/my-portfolio/static/media/jmr.1a41ad9a2b7cd74fdaf3.png",
@@ -16,18 +17,20 @@
     "static/media/fitness1.png": "/my-portfolio/static/media/fitness1.67ef399dccaef4e9863b.png",
     "static/media/me2.jpg": "/my-portfolio/static/media/me2.4391229560a20298c133.jpg",
     "static/media/youtube1.jpg": "/my-portfolio/static/media/youtube1.722d0421a69dc8ed414e.jpg",
+    "static/media/me.png": "/my-portfolio/static/media/me.9e2a347168a2bd1c30ea.png",
     "static/media/accuilgril.png": "/my-portfolio/static/media/accuilgril.0f6d3e988c2f72f84525.png",
     "static/media/Movie.jpg": "/my-portfolio/static/media/Movie.3cc81915eb8694b8fa6e.jpg",
     "static/media/moderui1.png": "/my-portfolio/static/media/moderui1.4abcd7369b3633f2c112.png",
     "static/media/koelling.jpeg": "/my-portfolio/static/media/koelling.a3a4dc4aba03c06d29b6.jpeg",
     "static/media/portfolio1.jpg": "/my-portfolio/static/media/portfolio1.652e61b881def872ad72.jpg",
     "static/media/chat.png": "/my-portfolio/static/media/chat.21f6885fc2ed576b19db.png",
+    "static/media/polyvant.png": "/my-portfolio/static/media/polyvant.7706a2f446ef5697760e.png",
     "index.html": "/my-portfolio/index.html",
-    "main.71ee2de6.css.map": "/my-portfolio/static/css/main.71ee2de6.css.map",
-    "main.c628ccc2.js.map": "/my-portfolio/static/js/main.c628ccc2.js.map"
+    "main.ae22f2b2.css.map": "/my-portfolio/static/css/main.ae22f2b2.css.map",
+    "main.6f5aac37.js.map": "/my-portfolio/static/js/main.6f5aac37.js.map"
   },
   "entrypoints": [
-    "static/css/main.71ee2de6.css",
-    "static/js/main.c628ccc2.js"
+    "static/css/main.ae22f2b2.css",
+    "static/js/main.6f5aac37.js"
   ]
 }
