@@ -26,37 +26,34 @@ function Experiance() {
                 <div className="exRleft">
                     <div className="workPlace">
                         <div className="placeLog">
-                            <img src={piano} alt="" />
+                            <img src={experiances[selectedWork-1].companyLogo} alt="" />
                         </div>
                         <div className="placdesc">
-                            <h3>PianoFabriek</h3>
-                            <p className='workTitle'>Barman</p>
-                            <p className='duration'>1 Year</p>
-                            <div className="startDate">01/02/2023  -  21/01/2024 </div>
-                            <p className='typeOfWork'>Full Time</p>
-                            <p className='whereWork'>Brussels</p>
+                            <h3>{experiances[selectedWork-1].nameOfCompany} </h3>
+                            <p className='workTitle'>{experiances[selectedWork-1].workTitle } </p>
+                            <p className='duration'>{experiances[selectedWork-1].durantion } </p>
+                            <div className="startDate">{experiances[selectedWork-1].startDate } {experiances[selectedWork-1].endDate }  </div>
+                            <p className='typeOfWork'>{experiances[selectedWork-1].typeofWork }</p>
+                            <p className='whereWork'>{experiances[selectedWork-1].whereJob }</p>
 
                         </div>
                     </div>
                 </div>
                 <div className="exRmid">
                 <div className="workImg">
-                    <img src={me} alt="" />
+                    <img src={experiances[selectedWork-1].imgMid } alt="" />
                 </div>
                 </div>
                 <div className="exRright">
                     <div className="exRdesc">
                         <div className="workSymbol">
-                            <img src={polyvalant} alt="" />
+                            <img src={experiances[selectedWork-1].taskImg} alt="" />
                         </div>
                         <div className="taskDesc">
                             <div className="tasks">
-                                <p>Contact & service</p>
-                                <p>Multitasking</p>
-                                <p>Teamwork</p>
-                                <p>Conflict resolution</p>
-                                <p>Organization</p>
-                                <p>Stock Management</p>
+                                {experiances[selectedWork-1].tasks.map(item =>(
+                                    <p> {item} </p>
+                                ))}
                             </div>
                         </div>
                     </div>
