@@ -1,0 +1,87 @@
+.study{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, black 0%, rgba(0, 0, 0, 0.9) 10%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0.7) 30%, rgba(0, 0, 0, 0.7) 30%, #333 100%);
+
+}
+
+.studyContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sTop{
+    flex: 0.2;
+    color: white;
+    font-size: 40px;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+}
+.sTop p{
+    font-weight: bold;
+}
+
+
+.sBtm{
+    flex: 0.8;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.sBtmContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    width: 70%;
+    height: 90%;
+    display: flex;
+    gap: 20px;
+}
+
+.card{
+    flex: 1;
+    background-color: rgb(41, 37, 37);
+    display: flex;
+    flex-direction: column;
+}
+
+.sImg{
+    flex: 1;
+    width: 100%;
+    overflow: hidden;
+}
+
+.sImg img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.sDesc{
+    flex: 1;
+    overflow: hidden;
+    padding-left: 10px;
+    color: white;
+
+}
+.edTitle{
+    margin-top: 15px;
+
+}
+
+.date{
+    margin-top: 5px;
+}

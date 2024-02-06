@@ -5,6 +5,7 @@ import Menu from '../menu/Menu'
 import Projects from '../myprojects/Projects'
 import Skills from '../skills/Skills'
 import Experiance from '../experiance/Experiance'
+import Study from '../studies/Study'
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <Projects />
       <Skills />
       <Experiance />
+      <Study />
       <Footer />
     </div>
   )

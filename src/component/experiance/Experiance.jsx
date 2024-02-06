@@ -6,6 +6,7 @@ import "./exper.css"
 import experiances from './expData'
 function Experiance() {
     const [selectedWork, setSelectedWork] = useState(1);
+    let firstImg = 0;
     const changeWork =(id)=>{
             setSelectedWork(id)
     }
@@ -41,7 +42,7 @@ function Experiance() {
                 </div>
                 <div className="exRmid">
                 <div className="workImg">
-                    <img src={experiances[selectedWork-1].imgMid } alt="" />
+                    <img  src={experiances[selectedWork-1].imgMid } alt="" />
                 </div>
                 </div>
                 <div className="exRright">
