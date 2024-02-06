@@ -85,3 +85,7 @@
 .date{
     margin-top: 5px;
 }
+
+.date a{
+    color: white;
+}
