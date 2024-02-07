@@ -3,22 +3,25 @@ import "../mainPage/door.css"
 import "./menu.css"
 import { ScrollLink } from 'react-scroll'
 import NotBuild from '../notBuild/NotBuild'
+import AboutMe from '../aboutme/AboutMe'
 function Menu() {
 
   const [notBuildPage, setNotBuildPage] = useState(false)
-  const goToNotBuildPage=()=>{
+  const [pageId, setPageId]= useState(0);
+  const goToNotBuildPage=(id)=>{
     setNotBuildPage(true)
+    setPageId(id);
   }
 
 
   return (
     <div className='menu' id='menuId' >
-       {notBuildPage ? <NotBuild setNotBuildPage={setNotBuildPage} /> : 
+       {notBuildPage && pageId ==1 ? <AboutMe /> : notBuildPage ? <NotBuild setNotBuildPage={setNotBuildPage} /> : 
        <div className="meunBody">
        <div className="mLeft">
            <div className="menuContainer">
                <div className="fFloor">
-               <a onClick={goToNotBuildPage} href="#aboutmeComp" className="mBox">About me</a>
+               <a onClick={()=> goToNotBuildPage(1) } href="#aboutmeComp" className="mBox">About me</a>
                <a  href="#projects"  className="mBox"> Projects</a>
                <a  href="#skills" className="mBox">Skills</a>
                <a  href="#experianceId" className="mBox">Experiances</a>
