@@ -7,13 +7,12 @@ import accounting from "./images/accounting.jpg"
 
 function Study() {
   return (
-    <div className='study'>
+    <div className='study' id='educationId'>
+        <a className='menuId' href="#menuId">Go back to menu</a>
         <div className="studyContainer">
             <div className="sTop">
                 <p>Education</p>
             </div>
-
-
             <div className="sBtm">
                 <div className="sBtmContainer">
                     <div className="box">

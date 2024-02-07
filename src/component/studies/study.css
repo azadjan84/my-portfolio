@@ -2,7 +2,7 @@
     width: 100vw;
     height: 100vh;
     background: linear-gradient(to right, black 0%, rgba(0, 0, 0, 0.9) 10%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0.7) 30%, rgba(0, 0, 0, 0.7) 30%, #333 100%);
-
+    position: relative;
 }
 
 .studyContainer{
@@ -88,4 +88,19 @@
 
 .date a{
     color: white;
+}
+
+.menuId{
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+    border: 1px solid white;
+    top: 100px;
+    left: 150px;
+    border-radius: 3px;
+    box-shadow: 2px 2px white;
+}
+.menuId:hover{
+    opacity: 0.8;
 }

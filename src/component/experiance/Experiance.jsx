@@ -11,7 +11,8 @@ function Experiance() {
             setSelectedWork(id)
     }
   return (
-    <div className='exContainer' >
+    <div className='exContainer' id='experianceId' >
+        <a style={{position:"absolute", top:"40px", left:"18px"}} className='menuId' href="#menuId">Go back to menu</a>
         <div className="exBody">
             <div className="exLeft">
                 <div className="experianceTitle"> Experiences</div>
@@ -30,7 +31,7 @@ function Experiance() {
                             <img src={experiances[selectedWork-1].companyLogo} alt="" />
                         </div>
                         <div className="placdesc">
-                            <h3>{experiances[selectedWork-1].nameOfCompany} </h3>
+                            {experiances[selectedWork-1].id == 3? <h3> <a style={{color:"white"}} href="https://li.ki/">LIKI </a> {experiances[selectedWork-1].nameOfCompany} </h3> :<h3>{experiances[selectedWork-1].nameOfCompany}</h3>}
                             <p className='workTitle'>{experiances[selectedWork-1].workTitle } </p>
                             <p className='duration'>{experiances[selectedWork-1].durantion } </p>
                             <div className="startDate">{experiances[selectedWork-1].startDate } {experiances[selectedWork-1].endDate }  </div>
@@ -42,7 +43,7 @@ function Experiance() {
                 </div>
                 <div className="exRmid">
                 <div className="workImg">
-                    <img  src={experiances[selectedWork-1].imgMid } alt="" />
+                    <img className={experiances[selectedWork-1].id ==1 ?"fixPic" : experiances[selectedWork-1].id ==5 ?"fixImgF" :""}  src={experiances[selectedWork-1].imgMid } alt="" />
                 </div>
                 </div>
                 <div className="exRright">

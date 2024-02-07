@@ -6,7 +6,7 @@ import meTeather from "./images/meTheater.png"
 
 
 import pianoImg from "./images/piano.jpg"
-import signaImg from "./images/singaImg.jpg"
+import signaImg from "./images/singa.jpg"
 import likiImg from "./images/likiLogo.png"
 import primarkt from "./images/primarkt.jpeg"
 import tourPlom from "./images/tourPlom.jpg"
@@ -55,13 +55,13 @@ const experiances = [
         durantion:"3 Months)",
         startDate:"01/01/2022  -  "  ,
         endDate:"30/09/2022"  ,
-        nameOfCompany:"LIKI (A startup that was developing a new communication app.)",
+        nameOfCompany:" (A startup that was developing a new communication app.)",
         companyLogo:likiImg,
         imgMid:codingGuy,
         taskImg:codingSym,
         typeofWork:"FULL TIME",
         whereJob:"Brussels",
-        tasks: ["- Active participation in the development of the DUG app including the creation of the app's website from scratch.","- Contribution to the design phase in Figma","- Applied design elements and APIs in the app using React technology."]
+        tasks: ["- Active participation in the development of the LIKI app including the creation of the app's website from scratch.","- Contribution to the design phase in Figma","- Applied design elements and APIs in the app using React technology."]
     },
 
     {

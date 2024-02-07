@@ -2,6 +2,7 @@
     width: 100vw;
     height: 100vh;
     background: linear-gradient(to right, black 0%, rgba(0, 0, 0, 0.9) 10%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0.7) 30%, rgba(0, 0, 0, 0.7) 30%, #333 100%);
+    position: relative;
 }
 
 .skillsContainer{
@@ -95,4 +96,5 @@
     overflow: hidden;
 
 }
+
 
