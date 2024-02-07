@@ -38,19 +38,29 @@
     text-align: left;
     border: none;
     outline: none;
-    transition: 0.4s;
-    background-color: #f9f9f9;
+    transition: color 0.4s;
+    background-color: transparent;
     border-bottom: 1px solid #ccc;
+    color: white;
+    padding-top:30px ;
 }
 
 .active, .accordion:hover{
     background-color: #ddd;
+    color: black;
+    
 }
 
 .panel{
     padding: 0 18px;
+    padding: 20px 18px;
     display: none;
     overflow: hidden;
-    background-color: white;
+    background-color: transparent;
     border-bottom: 1px solid #ccc;
+    color: rgb(45, 253, 45);
+}
+.active.panel {
+  display: block;
+  max-height: 1000px;
 }

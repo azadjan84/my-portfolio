@@ -4,8 +4,12 @@ import "./aboutme.css"
 function AboutMe({id}) {
   const [activeIndex, setActiveIndex ] = useState(0)
 
+  const toggleAccordion = (index)=>{
+    setActiveIndex(activeIndex ===index ? null :index)
+  }
+
   const questions = [
-    {question:"Who am I", answer:"Team player, detail-oriented, sociable, always eager to improve my professional and interpersonal skills, consistently responsible for my work and tasks. I possess a talent for coming up with solutions for challenges."},
+    {question:"Who am I?", answer:"Team player, detail-oriented, sociable, always eager to improve my professional and interpersonal skills, consistently responsible for my work and tasks. I possess a talent for coming up with solutions for challenges."},
     {question:"How others see me?", answer: "loream loream lreaom isht i solog osposi is"},
     {question:"How others see me?", answer: "loream loream lreaom isht i solog osposi is"},
     {question:"How others see me?", answer: "loream loream lreaom isht i solog osposi is"},
@@ -20,7 +24,7 @@ function AboutMe({id}) {
                 <div className="accordion-container">
                   {questions.map((q, index) => (
                     <div key={index}>
-                      <div className={`accordion ${activeIndex === index? "active": ""}`}>{q.question} </div>
+                      <div onClick={()=>toggleAccordion(index)} className={`accordion ${activeIndex === index? "active": ""}`}>{q.question} </div>
                       <div className={`panel ${activeIndex === index? "active": ''}`}>{q.answer} </div>
                     </div>
                   ))}
