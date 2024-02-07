@@ -7,12 +7,14 @@ import youtube from "./images/youtube.png"
 import booking from "./images/booking.png"
 import chat from "./images/chat.png"
 import jmr from "./images/jmr.png"
+import newPortfolio from "./images/newPortfolio.png"
 
 
 import portfolio1 from "./images/portfolio1.jpg"
 import ecomerce1 from "./images/ecomerce1.png"
 import moderui1 from "./images/moderui1.png"
 import fitness1 from "./images/fitness1.png"
+import oldPortLogo from "./images/oldPortfolio.png"
 
 
 import movie1 from "./images/Movie.jpg"
@@ -58,7 +60,7 @@ const linkProjects = [
             {name:"CSS", icon: cssIcon},
         ],
         onlineLink:"https://azad-portfolio-pro.netlify.app/",
-        logo:portfolio1,
+        logo:oldPortLogo,
         poster:oldPortfolio,
         github:"https://github.com/Mohammadazadbc/My-Portfolio?tab=readme-ov-file",
         description:"This is my old portfolio built with React and Node.js. I copied the design and rebuilt it following a tutorial from JavaScript Mastery. It is a truly amazing project, though it holds more significance in terms of learning rather than the satisfaction of using my creativity to construct a remarkable piece of work. This realization prompted me to start building my new portfolio, relying on my imagination and drawing inspiration from various aspects of life."
@@ -94,17 +96,17 @@ const linkProjects = [
     },
     {
         id:5,
-        projectTile:"Ecommerce",
+        projectTile:"My Portfolio",
         language:[
             {name:"React", icon:reactIcon},
             {name:"CSS", icon:cssIcon},
-            {name:"Tailwind", icon:tailwindIcon},
+            {name:"React", icon:reactIcon},
         ],
-        onlineLink:"https://mohammadazadbc.github.io/Ecommerce/",
-        logo:ecomerce1,
-        poster:ecommerceImg,
-        github:"https://github.com/Mohammadazadbc/Ecommerce?tab=readme-ov-file",
-        description:"This is an E-commerce project built with HTML, CSS, and JS. I found the design on Google, and while it is not fully functional, it features an amazing design. It was a valuable project in terms of learning and provided a great opportunity for skill development."
+        onlineLink:"http://localhost:3000/my-portfolio",
+        logo:portfolio1,
+        poster:newPortfolio,
+        github:"https://github.com/azadjan84/my-portfolio",
+        description:"This is my new portfolio, and it's the most complete one that I have built with so much passion and hard work. I built it from scratch, drawing inspiration for the design from real-world cities."
     },
 
     
