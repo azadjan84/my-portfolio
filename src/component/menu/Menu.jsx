@@ -5,7 +5,7 @@ import { ScrollLink } from 'react-scroll'
 import NotBuild from '../notBuild/NotBuild'
 function Menu() {
 
-  const [notBuildPage, setNotBuildPage] = useState(true)
+  const [notBuildPage, setNotBuildPage] = useState(false)
   const goToNotBuildPage=()=>{
     setNotBuildPage(true)
   }
