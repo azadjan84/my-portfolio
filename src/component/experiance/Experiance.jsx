@@ -1,10 +1,8 @@
 import React, { useState } from 'react'
-import me from "./images/me.png"
-import piano from "./images/piano.jpg"
-import polyvalant from "./images/polyvant.png"
 import "./exper.css"
 import experiances from './expData'
 function Experiance() {
+    const backMark = "<"
     const [selectedWork, setSelectedWork] = useState(1);
     let firstImg = 0;
     const changeWork =(id)=>{
@@ -12,7 +10,7 @@ function Experiance() {
     }
   return (
     <div className='exContainer' id='experianceId' >
-        <a style={{position:"absolute", top:"40px", left:"18px"}} className='menuId' href="#menuId">Go back to menu</a>
+        <a style={{position:"absolute", top:"40px", left:"18px"}} className='menuId' href="#menuId"> {backMark} Back</a>
         <div className="exBody">
             <div className="exLeft">
                 <div className="experianceTitle"> Experiences</div>

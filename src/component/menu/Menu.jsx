@@ -16,7 +16,7 @@ function Menu() {
 
   return (
     <div className='menu' id='menuId' >
-       {notBuildPage && pageId ==1 ? <AboutMe /> : notBuildPage ? <NotBuild setNotBuildPage={setNotBuildPage} /> : 
+       {notBuildPage && pageId ==1 ? <AboutMe setNotBuildPage={setNotBuildPage} /> : notBuildPage ? <NotBuild setNotBuildPage={setNotBuildPage} /> : 
        <div className="meunBody">
        <div className="mLeft">
            <div className="menuContainer">

@@ -6,9 +6,10 @@ import psy from "./images/psy.jpg"
 import accounting from "./images/accounting.jpg"
 
 function Study() {
+    const backMark = "<"
   return (
     <div className='study' id='educationId'>
-        <a className='menuId' href="#menuId">Go back to menu</a>
+        <a className='menuId' href="#menuId">{backMark} Back</a>
         <div className="studyContainer">
             <div className="sTop">
                 <p>Education</p>

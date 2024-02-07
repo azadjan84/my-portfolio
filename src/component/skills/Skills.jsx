@@ -11,11 +11,11 @@ import mysqlgIcon from "./images/mysql.png"
 
 
 function Skills() {
-
+    const backMark = "<"
 
   return (
     <div className='skills' id='skills'>
-        <a style={{position:"absolute", top:"40px", left:"18px"}} className='menuId' href="#menuId">Go back to menu</a>
+        <a style={{position:"absolute", top:"40px", left:"18px"}} className='menuId' href="#menuId">{backMark} Back</a>
         <div className="skillsContainer">
             <div className="sTitle"><h2>Skills</h2></div>
             <div className="sContainer">
