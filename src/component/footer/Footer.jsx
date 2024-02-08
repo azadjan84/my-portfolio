@@ -31,12 +31,13 @@ function Footer() {
 
             <div className="towBox">
                 <div className="contanctInfo">
-                  <a href=""> <img src={github} alt="" />  </a>
+                  <a href="https://github.com/Mohammadazadbc?tab=repositories"> <img src={github} alt="" />  </a>
                   <p>Github</p>
                 </div>
 
                 <div className="contanctInfo">
-                  <img src={github1} alt="" />
+                 <a href="https://github.com/azadjan84?tab=repositories"><img src={github1} alt="" /></a>
+                  
                   <p>Github</p>
                 </div>
             </div>
@@ -48,7 +49,8 @@ function Footer() {
                 </div>
 
                 <div className="contanctInfo">
-                  <img src={linkedIn} alt="" />
+                  <a href="https://www.linkedin.com/in/mohammad-azad84/"><img src={linkedIn} alt="" /></a>
+                  
                   <p>Farid Azad</p>
                 </div>
             </div>
