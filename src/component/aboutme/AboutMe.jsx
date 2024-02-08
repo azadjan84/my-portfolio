@@ -17,7 +17,7 @@ function AboutMe({id,setNotBuildPage}) {
     {question:"Who am I?",meTitle:"So, who am I?" ,meDesc:"Team player, detail-oriented, sociable, always eager to improve my professional and interpersonal skills, consistently responsible for my work and tasks. I possess a talent for coming up with solutions for challenges."},
     {question:"Why me?", meTitle:"My values" , meDesc:"loream loream lreaom isht i solog osposi is"},
     {question:"values?", meTitle: "me here ",meDesc:"loream loream lreaom isht i solog osposi is"},
-    {question:" love?", meTitle: "What do i do?" ,meDesc:"loream loream lreaom isht i solog osposi is"},
+    {question:" why?", meTitle: "What do i do?" ,meDesc:"loream loream lreaom isht i solog osposi is"},
   ];
   return (
     <div id={id} className='aboutme'>
