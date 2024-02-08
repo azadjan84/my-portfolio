@@ -36,7 +36,7 @@ function Menu() {
 
                <a onClick={goToNotBuildPage} href="#aboutmeComp" className="mBox">Language</a>
                <a onClick={goToNotBuildPage} href="#aboutmeComp" className="mBox">My Quotes </a>
-               <a onClick={goToNotBuildPage} href="#aboutmeComp" className="mBox">Contact</a>
+               <a href="#footerId" className="mBox">Contact</a>
                <a onClick={goToNotBuildPage} href="#aboutmeComp" className="mBox">This Portfolio</a>
                </div>
            </div>

@@ -9,7 +9,7 @@ import phone  from "./images/phone.png"
 
 function Footer() {
   return (
-    <div className='footer'>
+    <div className='footer' id='footerId'>
       <div className="footerBody">
         <div className="leftFooter">
           <h1>AZAD</h1>
