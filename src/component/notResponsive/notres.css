@@ -1,0 +1,8 @@
+
+.responsive-alert h1{
+    margin: 0;
+}
+
+.responsive-alert h1 span{
+    color: red;
+}
