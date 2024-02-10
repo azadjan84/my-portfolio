@@ -4,6 +4,7 @@ import "./menu.css"
 import { ScrollLink } from 'react-scroll'
 import NotBuild from '../notBuild/NotBuild'
 import AboutMe from '../aboutme/AboutMe'
+import Quotes from '../menuItems/myQuotes/Quotes'
 function Menu() {
 
   const [notBuildPage, setNotBuildPage] = useState(false)
@@ -16,7 +17,7 @@ function Menu() {
 
   return (
     <div className='menu' id='menuId' >
-       {notBuildPage && pageId ==1 ? <AboutMe setNotBuildPage={setNotBuildPage} /> : notBuildPage ? <NotBuild setNotBuildPage={setNotBuildPage} /> : 
+       {notBuildPage && pageId ==1 ? <AboutMe setNotBuildPage={setNotBuildPage} />: notBuildPage && pageId ==6 ?<Quotes setNotBuildPage={setNotBuildPage} />  : notBuildPage ? <NotBuild setNotBuildPage={setNotBuildPage} /> : 
        <div className="meunBody">
        <div className="mLeft">
            <div className="menuContainer">
@@ -28,14 +29,14 @@ function Menu() {
                </div>
                <div className="sFloor">
                <a  href="#educationId" className="mBox">Education</a>
-               <a onClick={goToNotBuildPage}  href="#aboutmeComp" className="mBox">Algorithm</a>
+               <a onClick={()=> goToNotBuildPage(2)}  href="#aboutmeComp" className="mBox">Algorithm</a>
                <a onClick={goToNotBuildPage} href="#aboutmeComp" className="mBox">Hobby</a>
                <a onClick={goToNotBuildPage} href="#aboutmeComp" className="mBox">Values</a>
                </div>
                <div className="tFloor">
 
                <a onClick={goToNotBuildPage} href="#aboutmeComp" className="mBox">Language</a>
-               <a onClick={goToNotBuildPage} href="#aboutmeComp" className="mBox">My Quotes </a>
+               <a onClick={()=> goToNotBuildPage(6) } href="#aboutmeComp" className="mBox">My Quotes </a>
                <a href="#footerId" className="mBox">Contact</a>
                <a onClick={goToNotBuildPage} href="#aboutmeComp" className="mBox">This Portfolio</a>
                </div>
