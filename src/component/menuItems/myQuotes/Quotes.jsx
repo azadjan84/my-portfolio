@@ -22,6 +22,7 @@ function Quotes({setNotBuildPage}) {
             <div className="qcdiv"> <p>"If I were to switch places with a friend for a week to observe my communication skills, emotional intelligence, and professional development from an external perspective, it could provide valuable insights for growth."</p> </div>
             <div className="qcdiv"> <p>"Don't wait for everything to be perfect to start something."</p> </div>
             <div className="qcdiv"> <p>"Despite our efforts to make things go smoothly, many aspects of the world are beyond our control. I accept that anything can happen. Therefore, I believe in the importance of resilience, getting back up, and starting fresh each day."</p> </div>
+            <div className="qcdiv"> <p>"Don't wait for everything to be perfect to start something."</p> </div>
             
           
            
