@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.beb14b9d.css",
+    "main.css": "/my-portfolio/static/css/main.02f9d8f5.css",
     "main.js": "/my-portfolio/static/js/main.5495610d.js",
     "static/media/piano.jpg": "/my-portfolio/static/media/piano.1ad8a7b81b370b52f5f9.jpg",
     "static/media/youtube.png": "/my-portfolio/static/media/youtube.255f36e1d2466b751851.png",
@@ -33,7 +33,6 @@
     "static/media/moderui1.png": "/my-portfolio/static/media/moderui1.4abcd7369b3633f2c112.png",
     "static/media/coding.png": "/my-portfolio/static/media/coding.88f502669c7726ab2411.png",
     "static/media/koelling.jpeg": "/my-portfolio/static/media/koelling.a3a4dc4aba03c06d29b6.jpeg",
-    "static/media/qbg1.jpg": "/my-portfolio/static/media/qbg1.f87cd688b8669d8ae05c.jpg",
     "static/media/portfolio1.jpg": "/my-portfolio/static/media/portfolio1.652e61b881def872ad72.jpg",
     "static/media/accounting.jpg": "/my-portfolio/static/media/accounting.e485c409514223649d10.jpg",
     "static/media/chat.png": "/my-portfolio/static/media/chat.21f6885fc2ed576b19db.png",
@@ -41,11 +40,11 @@
     "static/media/likiLogo.png": "/my-portfolio/static/media/likiLogo.db89ffe722513b11adc4.png",
     "static/media/psy.jpg": "/my-portfolio/static/media/psy.d320e1a111f8e9e82a78.jpg",
     "index.html": "/my-portfolio/index.html",
-    "main.beb14b9d.css.map": "/my-portfolio/static/css/main.beb14b9d.css.map",
+    "main.02f9d8f5.css.map": "/my-portfolio/static/css/main.02f9d8f5.css.map",
     "main.5495610d.js.map": "/my-portfolio/static/js/main.5495610d.js.map"
   },
   "entrypoints": [
-    "static/css/main.beb14b9d.css",
+    "static/css/main.02f9d8f5.css",
     "static/js/main.5495610d.js"
   ]
 }
