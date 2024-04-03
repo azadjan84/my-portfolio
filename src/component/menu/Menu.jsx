@@ -29,16 +29,16 @@ function Menu() {
                </div>
                <div className="sFloor">
                <a  href="#educationId" className="mBox">Education</a>
-               <a onClick={()=> goToNotBuildPage(2)}  href="#aboutmeComp" className="mBox">Algorithm</a>
-               <a onClick={goToNotBuildPage} href="#aboutmeComp" className="mBox">Hobby</a>
-               <a onClick={goToNotBuildPage} href="#aboutmeComp" className="mBox">Values</a>
+               <a   href="#aboutmeComp" title='private' className="mBox diableOn">Algorithm</a>
+               <a href="#aboutmeComp" title='private' className="mBox diableOn">Hobby</a>
+               <a  href="#aboutmeComp" title='private' className="mBox diableOn">Values</a>
                </div>
                <div className="tFloor">
 
-               <a onClick={goToNotBuildPage} href="#aboutmeComp" className="mBox">Language</a>
+               <a  href="#aboutmeComp" title='private' className="mBox diableOn">Language</a>
                <a onClick={()=> goToNotBuildPage(6) } href="#aboutmeComp" className="mBox">My Quotes </a>
-               <a href="#footerId" className="mBox">Contact</a>
-               <a onClick={goToNotBuildPage} href="#aboutmeComp" className="mBox">This Portfolio</a>
+                <a href="#footerId" className="mBox"  >Contact</a>
+              <a  href="#aboutmeComp" title='private' className="mBox diableOn">This Portfolio</a>
                </div>
            </div>
            

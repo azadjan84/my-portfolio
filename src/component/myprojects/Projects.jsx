@@ -54,7 +54,7 @@ function Projects() {
       </div>
         :
           <div className="OneProject">
-            <ShowOneProject showProjectId={showProjectId} setShowProject={setShowProject} showProject={showProject}
+            <ShowOneProject showCloseBtn={true} showProjectId={showProjectId} setShowProject={setShowProject} showProject={showProject}
               noLink={noLink} setNoLink={setNoLink}
             />
           </div>

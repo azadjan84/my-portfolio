@@ -1,0 +1,146 @@
+
+.products{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    transition: transform 0.5s ease;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, black 0%, rgba(0, 0, 0, 0.9) 10%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0.7) 30%, rgba(0, 0, 0, 0.7) 30%, #333 100%);
+    color: white;
+}
+.products.active{
+    height: 100vh;
+}
+.product{
+    width: 90%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.proleft{
+    flex: 1;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background: linear-gradient(to right, black 0%, rgba(0, 0, 0, 0.9) 10%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0.7) 30%, rgba(0, 0, 0, 0.7) 30%, #333 100%);
+    background-color: red;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.dropdown{
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.dropdown p{
+    font-size: large;
+}
+
+.proleft img{
+    width: 40px;
+    height: 50px;
+}
+
+.hideList{
+    display: none;
+}
+
+.showList{
+    display: flex;
+    height: 85vh;
+    width: 100%;
+}
+
+.list{
+    background-color: black;
+}
+
+.listBody{
+    width: 100%;
+    height: 100%;
+}
+
+.listBody::-webkit-scrollbar {
+    width: 10px; /* width of the scrollbar */
+  }
+
+.listCard{
+    display: flex;
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
+
+.listtitle{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.listDesc{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.listDesc p{
+    font-size: 15px;
+    padding: 0 10px;
+}
+
+.listTech{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LinkToCode{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+.LinkToCode a{
+    color: white;
+}
+
+.LinkToWeb{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;   
+}
+.LinkToCode p{
+    font-size: 13px;
+    
+}
+.LinkToWeb p  {
+    font-size: 13px;
+}
+
+.listTech p img{
+    width: 50px;
+    height: 50px;
+}
+/*
+learn by heart personnel live experiane psychology;
+
+Description about the project, in technical project,
+what was the challanges whit did you learned, 
+what did you accoulish on the project.
+
+What is the priorty for me. 
+*/

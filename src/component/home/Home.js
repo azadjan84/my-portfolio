@@ -7,6 +7,7 @@ import Skills from '../skills/Skills'
 import Experiance from '../experiance/Experiance'
 import Study from '../studies/Study'
 import Notresponsive from '../notResponsive/Notresponsive'
+import Products from '../products/Products'
 
 function Home() {
 
@@ -33,6 +34,7 @@ function Home() {
       <>
       <MainPage />
       <Menu/>
+      <Products />
       <Projects />
       <Skills />
       <Experiance />

@@ -9,7 +9,8 @@ function ShowOneProject({
   setShowProject,
   showProject,
   noLink,
-  setNoLink
+  setNoLink,
+  showCloseBtn
 }) {
 
   const goBackToProjects =()=>{
@@ -22,7 +23,7 @@ function ShowOneProject({
   return (
     <div className='oneContainer'>
         <div className="divOneBody">
-            <div className="closeBtn"><img onClick={goBackToProjects} src={xBtn} alt="" /></div>
+             {showCloseBtn?<div className="closeBtn"><img onClick={goBackToProjects} src={xBtn} alt="" /></div> :"" } 
             <div className="oneLeft">
               <div className="imgdiv">
                 <div className="Onetitle">
