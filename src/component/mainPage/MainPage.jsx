@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
 import "./door.css"
 
-
-
 function MainPage() {
+
   return (
     <div className='mainPage'>
         <div className="mainLeft">
@@ -16,6 +15,12 @@ function MainPage() {
           </div>
           <div className="jobTitle">
             <p>DEVELOPER</p>
+          </div>
+          <div className="cvAndProject">
+              <div className="manBtns cv">
+                <a href='https://drive.google.com/file/d/1VBQ5uAJ3uiyZwBeN3GyPQ9-vJHKP4S9c/view?usp=drive_link' className='manBtns'>CV</a>
+              </div>
+              <a href="#projectsId" className="manBtns">Projects</a>
           </div>
         </div>
         <div className="mainRight">

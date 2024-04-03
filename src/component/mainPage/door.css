@@ -39,7 +39,7 @@
 }
 
 .myName p{
-    font-size: 130px;
+    font-size: 120px;
     font-weight: bold;
     font-style:oblique;
     width: 380px;
@@ -104,4 +104,40 @@
     justify-content: space-around;
     align-items: center;
     justify-content: center;
+}
+
+
+.cvAndProject{
+    padding: 16px;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.manBtns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 19px;
+    background: linear-gradient(to right, black 0%, rgba(0, 0, 0, 0.9) 10%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0.7) 30%, rgba(0, 0, 0, 0.7) 30%, #333 100%);
+    cursor: pointer;
+    background-color: black;
+    text-decoration: none;
+} 
+
+.cv a{
+    color: white;
+}
+a{
+    color: white;
+}
+
+.manBtns:hover{
+    outline :red;    
+}
+.manBtns:hover {
+    transform: scale(1.01);
 }

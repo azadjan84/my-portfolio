@@ -18,7 +18,7 @@ function Products() {
   }
 
   return (
-    <div className={dropDown? "products active" :  'products' } >
+    <div id='projectsId' className={dropDown? "products active" :  'products' } >
         <div className="product">
             <div className="proleft">
                 <div onClick={handleDropDown} className="dropdown">
