@@ -69,8 +69,25 @@
     height: 100%;
 }
 
+
+
 .listBody::-webkit-scrollbar {
     width: 10px; /* width of the scrollbar */
+  }
+  
+  /* Track */
+  .listBody::-webkit-scrollbar-track {
+    background: #f1f1f1; /* color of the track */
+  }
+  
+  /* Handle */
+  .listBody::-webkit-scrollbar-thumb {
+    background: #888; /* color of the handle */
+  }
+  
+  /* Handle on hover */
+  .listBody::-webkit-scrollbar-thumb:hover {
+    background: #555; /* color of the handle on hover */
   }
 
 .listCard{
