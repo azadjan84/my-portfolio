@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.4034577f.css",
-    "main.js": "/my-portfolio/static/js/main.21c2e95b.js",
+    "main.css": "/my-portfolio/static/css/main.1aec21e7.css",
+    "main.js": "/my-portfolio/static/js/main.0ce79a3e.js",
     "static/media/youtube.png": "/my-portfolio/static/media/youtube.255f36e1d2466b751851.png",
     "static/media/booking.png": "/my-portfolio/static/media/booking.d8fbcf0017d8f8665e2e.png",
     "static/media/tourPlom.jpg": "/my-portfolio/static/media/tourPlom.358c3c2d1c2b50725432.jpg",
@@ -15,11 +15,16 @@
     "static/media/newPortfolio.png": "/my-portfolio/static/media/newPortfolio.0c2c7754d4df1af67572.png",
     "static/media/moderui.png": "/my-portfolio/static/media/moderui.d7d00476bf0175711b0f.png",
     "static/media/ecomerce1.png": "/my-portfolio/static/media/ecomerce1.c5170e17c6d33d319919.png",
+    "static/media/gym.png": "/my-portfolio/static/media/gym.f9d321b903ffa76562dd.png",
     "static/media/jmr.png": "/my-portfolio/static/media/jmr.1a41ad9a2b7cd74fdaf3.png",
+    "static/media/oldp.png": "/my-portfolio/static/media/oldp.a933d2743cce20db079d.png",
+    "static/media/port.png": "/my-portfolio/static/media/port.c43c0ad60585ad54abf0.png",
     "static/media/pingpong.png": "/my-portfolio/static/media/pingpong.fd0702810509dfb8c580.png",
+    "static/media/mod.png": "/my-portfolio/static/media/mod.ae05b48bbeb4729a5842.png",
     "static/media/chat1.png": "/my-portfolio/static/media/chat1.7c94e364136e4f64d684.png",
     "static/media/ecomerce.png": "/my-portfolio/static/media/ecomerce.c2513f4cbb504bc0475f.png",
     "static/media/meTheater.png": "/my-portfolio/static/media/meTheater.056efa7377b9132c0b99.png",
+    "static/media/eco.png": "/my-portfolio/static/media/eco.b8c95b042d053f69d05e.png",
     "static/media/redFlower.jpg": "/my-portfolio/static/media/redFlower.d500e4c08f069e293589.jpg",
     "static/media/fitness1.png": "/my-portfolio/static/media/fitness1.67ef399dccaef4e9863b.png",
     "static/media/manquan.png": "/my-portfolio/static/media/manquan.19311f32709435997f46.png",
@@ -41,11 +46,11 @@
     "static/media/likiLogo.png": "/my-portfolio/static/media/likiLogo.db89ffe722513b11adc4.png",
     "static/media/psy.jpg": "/my-portfolio/static/media/psy.d320e1a111f8e9e82a78.jpg",
     "index.html": "/my-portfolio/index.html",
-    "main.4034577f.css.map": "/my-portfolio/static/css/main.4034577f.css.map",
-    "main.21c2e95b.js.map": "/my-portfolio/static/js/main.21c2e95b.js.map"
+    "main.1aec21e7.css.map": "/my-portfolio/static/css/main.1aec21e7.css.map",
+    "main.0ce79a3e.js.map": "/my-portfolio/static/js/main.0ce79a3e.js.map"
   },
   "entrypoints": [
-    "static/css/main.4034577f.css",
-    "static/js/main.21c2e95b.js"
+    "static/css/main.1aec21e7.css",
+    "static/js/main.0ce79a3e.js"
   ]
 }
