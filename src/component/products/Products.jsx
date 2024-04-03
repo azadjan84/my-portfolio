@@ -22,7 +22,7 @@ function Products() {
         <div className="product">
             <div className="proleft">
                 <div onClick={handleDropDown} className="dropdown">
-                    <p>Overview the projects list  </p>
+                    <p>Overview the project list</p>
                     <img src={dropdown} alt="" />
                 </div>
             </div>
@@ -30,16 +30,16 @@ function Products() {
             <div className={dropDown? "showList list" : "hideList"}>
                 <div className="listBody">
 
-                <div className="listCard">
-                        <div className="listtitle">  <h3>Title</h3> </div>
+                <div className="listCard listCardFix">
+                        <div className="listtitle">  <h3>Project</h3> </div>
                         <div className="listDesc">
                             <h3>Description</h3>
                         </div>
                         <div className="listTech">
-                            <h3>Technolgie</h3>
+                            <h3>Technology</h3>
                         </div>
                         <div className="LinkToCode">
-                            <h3>Link To code</h3>
+                            <h3>Link to code</h3>
                         </div>
                         <div className="LinkToWeb">
                             <h3 >Link to application</h3>
