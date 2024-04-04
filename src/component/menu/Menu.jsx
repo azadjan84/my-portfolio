@@ -36,7 +36,7 @@ function Menu() {
                </div>
                <div className="tFloor">
 
-               <a onClick={()=> goToNotBuildPage(5) } href="#aboutmeComp" title='private' className="mBox diableOn">Language</a>
+               <a onClick={()=> goToNotBuildPage(5) } href="#aboutmeComp" title='private' className="mBox">Language</a>
                <a onClick={()=> goToNotBuildPage(6) } href="#aboutmeComp" className="mBox">My Quotes </a>
                 <a href="#footerId" className="mBox"  >Contact</a>
               <a  href="#aboutmeComp" title='private' className="mBox diableOn">This Portfolio</a>

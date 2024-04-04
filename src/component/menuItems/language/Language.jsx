@@ -1,11 +1,17 @@
 import React, { useState } from 'react'
 import "./language.css"
 import langueData from './data'
-function Language() {
-    const [startOn, setStartOn] = useState()
+import xBtn from "../../myprojects/slides/images/x.png"
+function Language({setNotBuildPage}) {
+
+    const handleBuildPage =()=>{
+        setNotBuildPage(false)
+    }
 
   return (
     <div className='language'> 
+
+        <div onClick={handleBuildPage} className="LancloseBtn"><img  src={xBtn} alt="" /></div>  
         <div className="languageBody">
             <div className="langContainer">
                 <div className="langTop">
