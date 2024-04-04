@@ -3,7 +3,7 @@ import pingPong from "./images/pingpong.png"
 import codingGuy from "./images/coding.png"
 import sellerGuy from "./images/manquan.png"
 import meTeather from "./images/meTheater.png"
-
+import mePpBg from "./images/mePingpongBg.png"
 
 import pianoImg from "./images/piano.jpg"
 import signaImg from "./images/singa.jpg"
@@ -42,7 +42,7 @@ const experiances = [
         endDate:"01/09/2023"  ,
         nameOfCompany:"SINGA ( Through social activities establish connections between Brussels residents and newcomers).",
         companyLogo:signaImg,
-        imgMid:pingPong,
+        imgMid:mePpBg,
         taskImg:coach,
         typeofWork:"PART TIME",
         whereJob:"Brussels",
