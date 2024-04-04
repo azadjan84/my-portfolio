@@ -25,7 +25,7 @@ function Menu() {
                <a onClick={()=> goToNotBuildPage(1) } href="#aboutmeComp" className="mBox">About me</a>
                <a  href="#projects"  className="mBox"> Projects</a>
                <a  href="#skills" className="mBox">Skills</a>
-               <a  href="#experianceId" className="mBox">Experiances</a>
+               <a  href="#experianceId" className="mBox">Experiences</a>
                </div>
                <div className="sFloor">
                <a  href="#educationId" className="mBox">Education</a>
@@ -35,7 +35,7 @@ function Menu() {
                </div>
                <div className="tFloor">
 
-               <a  href="#aboutmeComp" title='private' className="mBox diableOn">Language</a>
+               <a onClick={()=> goToNotBuildPage(5) } href="#aboutmeComp" title='private' className="mBox diableOn">Language</a>
                <a onClick={()=> goToNotBuildPage(6) } href="#aboutmeComp" className="mBox">My Quotes </a>
                 <a href="#footerId" className="mBox"  >Contact</a>
               <a  href="#aboutmeComp" title='private' className="mBox diableOn">This Portfolio</a>
