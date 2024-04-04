@@ -5,6 +5,7 @@ import { ScrollLink } from 'react-scroll'
 import NotBuild from '../notBuild/NotBuild'
 import AboutMe from '../aboutme/AboutMe'
 import Quotes from '../menuItems/myQuotes/Quotes'
+import Language from '../menuItems/language/Language'
 function Menu() {
 
   const [notBuildPage, setNotBuildPage] = useState(false)
@@ -17,7 +18,7 @@ function Menu() {
 
   return (
     <div className='menu' id='menuId' >
-       {notBuildPage && pageId ==1 ? <AboutMe setNotBuildPage={setNotBuildPage} />: notBuildPage && pageId ==6 ?<Quotes setNotBuildPage={setNotBuildPage} />  : notBuildPage ? <NotBuild setNotBuildPage={setNotBuildPage} /> : 
+       {notBuildPage && pageId ==1 ? <AboutMe setNotBuildPage={setNotBuildPage} />: notBuildPage && pageId ==5 ? <Language setNotBuildPage={setNotBuildPage} />: notBuildPage && pageId ==6 ?<Quotes setNotBuildPage={setNotBuildPage} />  : notBuildPage ? <NotBuild setNotBuildPage={setNotBuildPage} /> : 
        <div className="meunBody">
        <div className="mLeft">
            <div className="menuContainer">
