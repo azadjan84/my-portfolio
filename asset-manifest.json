@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.1aec21e7.css",
-    "main.js": "/my-portfolio/static/js/main.0ce79a3e.js",
+    "main.css": "/my-portfolio/static/css/main.d14224b1.css",
+    "main.js": "/my-portfolio/static/js/main.6b21ae25.js",
     "static/media/youtube.png": "/my-portfolio/static/media/youtube.255f36e1d2466b751851.png",
     "static/media/booking.png": "/my-portfolio/static/media/booking.d8fbcf0017d8f8665e2e.png",
     "static/media/tourPlom.jpg": "/my-portfolio/static/media/tourPlom.358c3c2d1c2b50725432.jpg",
@@ -26,6 +26,7 @@
     "static/media/meTheater.png": "/my-portfolio/static/media/meTheater.056efa7377b9132c0b99.png",
     "static/media/eco.png": "/my-portfolio/static/media/eco.b8c95b042d053f69d05e.png",
     "static/media/redFlower.jpg": "/my-portfolio/static/media/redFlower.d500e4c08f069e293589.jpg",
+    "static/media/mePingpongBg.png": "/my-portfolio/static/media/mePingpongBg.800cc8bd7edf68d95fa1.png",
     "static/media/fitness1.png": "/my-portfolio/static/media/fitness1.67ef399dccaef4e9863b.png",
     "static/media/manquan.png": "/my-portfolio/static/media/manquan.19311f32709435997f46.png",
     "static/media/me2.jpg": "/my-portfolio/static/media/me2.4391229560a20298c133.jpg",
@@ -46,11 +47,11 @@
     "static/media/likiLogo.png": "/my-portfolio/static/media/likiLogo.db89ffe722513b11adc4.png",
     "static/media/psy.jpg": "/my-portfolio/static/media/psy.d320e1a111f8e9e82a78.jpg",
     "index.html": "/my-portfolio/index.html",
-    "main.1aec21e7.css.map": "/my-portfolio/static/css/main.1aec21e7.css.map",
-    "main.0ce79a3e.js.map": "/my-portfolio/static/js/main.0ce79a3e.js.map"
+    "main.d14224b1.css.map": "/my-portfolio/static/css/main.d14224b1.css.map",
+    "main.6b21ae25.js.map": "/my-portfolio/static/js/main.6b21ae25.js.map"
   },
   "entrypoints": [
-    "static/css/main.1aec21e7.css",
-    "static/js/main.0ce79a3e.js"
+    "static/css/main.d14224b1.css",
+    "static/js/main.6b21ae25.js"
   ]
 }
