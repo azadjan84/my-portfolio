@@ -19,7 +19,7 @@ function Projects() {
               
           <div className="sMiddle">
             <div className="sMT">
-              <h1 style={{width:"100%", textAlign:"center", marginBottom:"15px" }}>Projects with online link</h1>
+              <h1 style={{width:"100%", textAlign:"center", marginBottom:"15px" }}>Explore My Work</h1>
               <div className="sMTBox">
                 {
                   linkProjects.map((item,index) => (
