@@ -30,8 +30,8 @@ function Menu() {
                </div>
                <div className="sFloor">
                <a  href="#educationId" className="mBox">Education</a>
-               <a   href="#aboutmeComp" title='private' className="mBox diableOn">Algorithm</a>
-               <a href="#aboutmeComp" title='private' className="mBox diableOn">Hobby</a>
+               <a   href="https://drive.google.com/file/d/1IBgp7S6pLebvMbYdDh5bjuZNRRsUQwwt/view?usp=drive_link" title='private' className="mBox">CV - ENG</a>
+               <a href="https://drive.google.com/file/d/1vs3c4i-c5_5CyKiLCp5oqFBOmj6c4W3B/view?usp=drive_link" title='private' className="mBox">CV - NL</a>
                <a  href="#aboutmeComp" title='private' className="mBox diableOn">Values</a>
                </div>
                <div className="tFloor">

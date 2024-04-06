@@ -3,6 +3,11 @@ import "./door.css"
 
 function MainPage() {
 
+  const [cvOn, setCvOn] = useState(false)
+
+  const handleCvOn =()=>{
+    setCvOn(!cvOn)
+  }
   return (
     <div className='mainPage'>
         <div className="mainLeft">
@@ -18,10 +23,15 @@ function MainPage() {
           </div>
           <div className="cvAndProject">
               <div className="manBtns cv">
-                <a href='https://drive.google.com/file/d/1VBQ5uAJ3uiyZwBeN3GyPQ9-vJHKP4S9c/view?usp=drive_link' className='manBtns'>CV</a>
+                <div onClick={handleCvOn} className='manBtns'>CV</div>
               </div>
               <a href="#projectsId" className="manBtns">Projects</a>
           </div>
+          <div className={cvOn? "CvChoice comeToscreen" : "CvChoice"}>
+            <a href='https://drive.google.com/file/d/1vs3c4i-c5_5CyKiLCp5oqFBOmj6c4W3B/view?usp=drive_link' className="cvlang">CV - NL</a>
+            <a href='https://drive.google.com/file/d/1IBgp7S6pLebvMbYdDh5bjuZNRRsUQwwt/view?usp=drive_link' className="cvlang">CV - ENG</a>
+          </div>
+
         </div>
         <div className="mainRight">
           <div className="mrT">
