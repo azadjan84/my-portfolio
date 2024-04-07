@@ -11,7 +11,7 @@ import dropdown from "./dropdown.png"
 
 
 function Products() {
-  const [dropDown, setDropDown] = useState(true);
+  const [dropDown, setDropDown] = useState(false);
 
   const handleDropDown =()=>{
     setDropDown(!dropDown);

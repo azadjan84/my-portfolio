@@ -31,8 +31,7 @@ function ShowOneProject({
                     <div className="oneIcons">
                       <a href={ noLink? linkProjects[itemId].github : unLinkProjects[itemId].github} ><img src={gitIcon} style={{width:'60px', height:'60px'}} title="Visiit the code" alt='' />View code</a>
                      <a href={noLink? linkProjects[itemId].onlineLink : unLinkProjects[itemId].onlineLink} >
-                      {noLink? <img src={eyeIcon} style={{width:'70px', height:'70px'}} title='visit the website' alt="" /> : <img  alt="" />} View Project
-                      </a>
+                      {noLink? <img src={eyeIcon} style={{width:'70px', height:'70px'}} title='visit the website' alt="" /> : <img  alt="" />} {noLink? "View Project" : ""}</a>
                     
                 </div>
                 </div>
