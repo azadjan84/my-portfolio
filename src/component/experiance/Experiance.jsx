@@ -16,8 +16,8 @@ function Experiance() {
                 <div className="experianceTitle"> Experiences</div>
                 <div className="expeMenu">
                     <ul>
-                        { experiances.map(item =>(
-                            <li onClick={() =>changeWork(item.id)} className={selectedWork == item.id? "slected" :""} >{item.workTitle} </li>
+                        { experiances.map((item, index) =>(
+                            <li key={index} onClick={() =>changeWork(item.id)} className={selectedWork == item.id? "slected" :""} >{item.workTitle} </li>
                         ))}
                     </ul>
                 </div>
@@ -51,8 +51,8 @@ function Experiance() {
                         </div>
                         <div className="taskDesc">
                             <div className="tasks">
-                                {experiances[selectedWork-1].tasks.map(item =>(
-                                    <p> {item} </p>
+                                {experiances[selectedWork-1].tasks.map((item, index) =>(
+                                    <p key={index}> {item} </p>
                                 ))}
                             </div>
                         </div>

@@ -186,4 +186,6 @@ const unLinkProjects =[
         description:"This was a project that I developed for a friend who started a new business and asked me to create a website for him. I completed a significant portion of the website at the time, but I faced challenges in putting it online with a good link and making it discoverable on Google for people to find.",
     },
 ]
-export {linkProjects,unLinkProjects}; 
+
+const onMyPortofil = false;
+export {linkProjects,unLinkProjects, onMyPortofil}; 

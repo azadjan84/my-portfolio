@@ -50,20 +50,20 @@ function Products() {
                         {
                             linkProjects.map((item, index)=> (
                                 <div key={index} className="listCard">
-                                <div className="listtitle"> {item.projectTile} </div>
-                                <div className="listDesc">
-                                    <p> {item.description} </p>
-                                </div>
-                                <div className="listTech">
-                                    {item.language.map((tech, i)=> ( 
-                                        <p> {tech.name} <img src={tech.icon} alt="" /> </p>
-                                     )) }
-                                </div>
-                                <div className="LinkToCode">
-                                    <p href={item.github}> {item.github} </p>
-                                </div>
-                                <div className="LinkToWeb">
-                                    <p >{item.onlineLink}</p>
+                                    <div className="listtitle"> {item.projectTile} </div>
+                                    <div className="listDesc">
+                                        <p> {item.description} </p>
+                                    </div>
+                                    <div className="listTech">
+                                        {item.language.map((tech, i)=> ( 
+                                            <p key={i}>  {tech.name} <img src={tech.icon} alt="" /> </p>
+                                        )) }
+                                    </div>
+                                    <div className="LinkToCode">
+                                        <p href={item.github}> {item.github} </p>
+                                    </div>
+                                    <div className="LinkToWeb">
+                                        <p >{item.onlineLink}</p>
                                 </div>
                             </div>
                             ))

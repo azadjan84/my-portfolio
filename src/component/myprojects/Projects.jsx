@@ -3,12 +3,10 @@ import "./projects.css"
 import Slide from './slides/Slide'
 import { linkProjects,unLinkProjects } from './data';
 import ShowOneProject from './showOneProject/ShowOneProject';
-
 function Projects() {  
   const [showProject, setShowProject] = useState(true)
   const [showProjectId, setShowProjectId] = useState(0)
   const [noLink, setNoLink] = useState(false)
-
 
 
   return (
