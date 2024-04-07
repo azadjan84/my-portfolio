@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.1aa8d83c.css",
-    "main.js": "/my-portfolio/static/js/main.77cd8eac.js",
+    "main.js": "/my-portfolio/static/js/main.7f584d4c.js",
     "static/media/youtube.png": "/my-portfolio/static/media/youtube.255f36e1d2466b751851.png",
     "static/media/booking.png": "/my-portfolio/static/media/booking.d8fbcf0017d8f8665e2e.png",
     "static/media/tourPlom.jpg": "/my-portfolio/static/media/tourPlom.358c3c2d1c2b50725432.jpg",
@@ -48,10 +48,10 @@
     "static/media/psy.jpg": "/my-portfolio/static/media/psy.d320e1a111f8e9e82a78.jpg",
     "index.html": "/my-portfolio/index.html",
     "main.1aa8d83c.css.map": "/my-portfolio/static/css/main.1aa8d83c.css.map",
-    "main.77cd8eac.js.map": "/my-portfolio/static/js/main.77cd8eac.js.map"
+    "main.7f584d4c.js.map": "/my-portfolio/static/js/main.7f584d4c.js.map"
   },
   "entrypoints": [
     "static/css/main.1aa8d83c.css",
-    "static/js/main.77cd8eac.js"
+    "static/js/main.7f584d4c.js"
   ]
 }
