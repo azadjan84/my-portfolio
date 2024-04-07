@@ -6,7 +6,7 @@ import NotBuild from '../notBuild/NotBuild'
 import AboutMe from '../aboutme/AboutMe'
 import Quotes from '../menuItems/myQuotes/Quotes'
 import Language from '../menuItems/language/Language'
-import ThisPortofilio from '../menuItems/thisPortfoliio/ThisPortofilio'
+import Thisportfolio from '../menuItems/thisport/Thisportfolio'
 function Menu() {
 
   const [notBuildPage, setNotBuildPage] = useState(false)
@@ -19,7 +19,7 @@ function Menu() {
 
   return (
     <div className='menu' id='menuId' >
-       {notBuildPage && pageId ==7 ? <ThisPortofilio setNotBuildPage={setNotBuildPage} /> :  notBuildPage && pageId ==1 ? <AboutMe setNotBuildPage={setNotBuildPage} />: notBuildPage && pageId ==5 ? <Language setNotBuildPage={setNotBuildPage} />: notBuildPage && pageId ==6 ?<Quotes setNotBuildPage={setNotBuildPage} />  : notBuildPage ? <NotBuild setNotBuildPage={setNotBuildPage} /> : 
+       { notBuildPage && pageId ==9 ? <Thisportfolio setNotBuildPage={setNotBuildPage}  />  :notBuildPage && pageId ==1 ? <AboutMe setNotBuildPage={setNotBuildPage} />: notBuildPage && pageId ==5 ? <Language setNotBuildPage={setNotBuildPage} />: notBuildPage && pageId ==6 ?<Quotes setNotBuildPage={setNotBuildPage} />  : notBuildPage ? <NotBuild setNotBuildPage={setNotBuildPage} /> : 
        <div className="meunBody">
        <div className="mLeft">
            <div className="menuContainer">
@@ -40,7 +40,7 @@ function Menu() {
                <a onClick={()=> goToNotBuildPage(5) } href="#aboutmeComp" title='private' className="mBox">Language</a>
                <a onClick={()=> goToNotBuildPage(6) } href="#aboutmeComp" className="mBox">My Quotes </a>
                 <a href="#footerId" className="mBox"  >Contact</a>
-              <a  onClick={()=>setNotBuildPage(7)} href='' title='private' className="mBox">This Portfolio</a>
+              <a onClick={()=> goToNotBuildPage(9) } href="#aboutmeComp" title='private' className="mBox ">This Portfolio</a>
                </div>
            </div>
            

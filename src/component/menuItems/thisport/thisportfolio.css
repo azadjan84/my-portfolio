@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.thisPortfolio{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.thisOne{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+}
+
+
+
+.oneLeft{
+    flex: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgdiv{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.Onetitle{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.oneIcons{
+  flex: 1;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+.oneIcons a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.oneIcons img:hover, a:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+
+.Onetitle p{
+    flex: 1;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: italic;
+    opacity: 0.9;
+    text-align: center;
+}
+.imgdiv img{
+    width: 100%;
+    height: 70%;
+}
+.closeBtnT{
+    position: absolute;
+    top: 5%;
+    right: 0;
+    transform: scale(0.8);
+    cursor: pointer;
+}
+.closeBtnT:hover{
+    transform: scale(0.9);
+}
+
+
+
+/* right side of one show */
+
+.oneRight{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+
+}
+
+.oneRightBody{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+}
+.desc{
+    flex: 1.4;
+    box-shadow: 15px 15px rgb(36, 35, 35);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    
+}
+.desc p{
+    flex: 0.5;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    opacity: 0.9;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.descText{
+    flex: 1.4;
+    margin-left: 5px;
+    font-size: 16px;
+    letter-spacing: 0.1cap;
+    word-spacing: 0.11cm;
+    display: flex;
+    align-items: center;
+    opacity: 0.9;
+    font-family: 'Open Sans', sans-serif;
+
+    
+}
+
+
+.languages{
+    flex: 1;
+    box-shadow: 15px 15px rgb(36, 35, 35);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 18px;
+}
+
+.buildTechnologie{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+
+}
+
+.languages p{
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.technologies{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.technologies img{
+    width: 90px;
+    height: 90px;
+}
