@@ -147,37 +147,7 @@ a{
     overflow: hidden;
 }
 
-.CvChoice{
-    position: absolute;
-    width: 300px;
-    height: 100px;
-    background: linear-gradient(to right, black 0%, rgba(0, 0, 0, 0.9) 10%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0.7) 30%, rgba(0, 0, 0, 0.7) 30%, #333 100%);
-    background-color: blue;
-    bottom: 28%;
-    left: -100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 10px;
-    transition: left 0.3s ease; 
-}
-.CvChoice a{
-    text-decoration: none;
-}
-.CvChoice a:hover{
-    transform: scale(1.04);
-    background: linear-gradient(to right, black 0%, rgba(0, 0, 0, 0.9) 10%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0.7) 30%, rgba(0, 0, 0, 0.7) 30%, #333 100%);
-    box-shadow: 1px 1px white;
-}
-.comeToscreen{
-    left: 15%;
-}
-.cvlang{
-    background-color: black;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
+
 
 
 
