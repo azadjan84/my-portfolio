@@ -31,16 +31,16 @@ function Menu() {
                </div>
                <div className="sFloor">
                <a  href="#educationId" className="mBox">Education</a>
-               <a   href="https://drive.google.com/file/d/1IBgp7S6pLebvMbYdDh5bjuZNRRsUQwwt/view?usp=drive_link" title='private' className="mBox">CV - ENG</a>
-               <a href="https://drive.google.com/file/d/1vs3c4i-c5_5CyKiLCp5oqFBOmj6c4W3B/view?usp=drive_link" title='private' className="mBox">CV - NL</a>
+               <a   href="https://drive.google.com/file/d/1IBgp7S6pLebvMbYdDh5bjuZNRRsUQwwt/view?usp=drive_link"  className="mBox">CV - ENG</a>
+               <a href="https://drive.google.com/file/d/1vs3c4i-c5_5CyKiLCp5oqFBOmj6c4W3B/view?usp=drive_link"  className="mBox">CV - NL</a>
                <a  href="#aboutmeComp" title='private' className="mBox diableOn">Values</a>
                </div>
                <div className="tFloor">
 
-               <a onClick={()=> goToNotBuildPage(5) } href="#aboutmeComp" title='private' className="mBox">Language</a>
+               <a onClick={()=> goToNotBuildPage(5) } href="#aboutmeComp"  className="mBox">Language</a>
                <a onClick={()=> goToNotBuildPage(6) } href="#aboutmeComp" className="mBox">My Quotes </a>
                 <a href="#footerId" className="mBox"  >Contact</a>
-              <a onClick={()=> goToNotBuildPage(9) } href="#aboutmeComp" title='private' className="mBox ">This Portfolio</a>
+              <a onClick={()=> goToNotBuildPage(9) } href="#aboutmeComp" className="mBox ">This Portfolio</a>
                </div>
            </div>
            
