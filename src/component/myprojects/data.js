@@ -48,7 +48,7 @@ const linkProjects = [
         logo:ecomerce1,
         poster:ecommerceImg,
         github:"https://github.com/Mohammadazadbc/Ecommerce?tab=readme-ov-file",
-        description:"This is an E-commerce project built with HTML, CSS, and JS. I found the design on Google, and while it is not fully functional, it features an amazing design. It was a valuable project in terms of learning and provided a great opportunity for skill development."
+        description:"This is an E-commerce project built with HTML, CSS, and JS. I found the design on Google, and while it is not fully functional. It was a valuable project in terms of learning and provided a great opportunity for skill development."
     },
    
          {
@@ -77,7 +77,7 @@ const linkProjects = [
         logo:moderui1,
         poster:moderUi,
         github:"https://github.com/Mohammadazadbc/Modern-ui-ux-app",
-        description:"This is an amazing project built with React and Tailwind CSS technology. The design is inspired by JavaScript Mastery, and as I constructed this project, it became an incredible endeavor. It represents a futuristic website with stunning design elements."
+        description:"This is an amazing project built with React and Tailwind CSS technology. The design is inspired by JavaScript Mastery, and as I build this project, it became an incredible endeavor. It represents a futuristic website with stunning design elements."
     },
     {
         id:4,
@@ -92,7 +92,7 @@ const linkProjects = [
         logo:fitness1,
         poster:FitnessImg,
         github:"https://github.com/Mohammadazadbc/Fitness-Exercises-App?tab=readme-ov-file",
-        description:"This is an amazing project built with React and RapidAPI. On this website, you can discover exercises for each part of the body presented in GIF format. The exercises are categorized by the corresponding body part, providing detailed instructions on how to perform them. Additionally, there is a search bar that allows you to find specific exercises for particular areas of the body."
+        description:"This is project built with React and RapidAPI. On this website, you can discover exercises for each part of the body presented in GIF format. The exercises are categorized by the corresponding body part, providing detailed instructions on how to perform them. Additionally, there is a search bar that allows you to find specific exercises for particular areas of the body."
     },
     {
         id:5,
@@ -127,7 +127,7 @@ const unLinkProjects =[
         logo:movie1,
         poster:moveiPoster,
         github:"https://github.com/Mohammadazadbc/movies",
-        description:"This project, developed with Spring Boot and React, leverages MongoDB as its database. It retrieves movie details from the database, showcasing names, posters, and concise descriptions. Each movie entry is equipped with a clickable button for viewing the trailer, and users can contribute reviews for the films."
+        description:"This project was developed with Spring Boot and React, MongoDB as its database. It retrieves movie details from the database, showcasing names, posters, and concise descriptions. Each movie entry is equipped with a clickable button for viewing the trailer, and users can contribute reviews for the films."
     },
     {
         id:2,
@@ -169,7 +169,7 @@ const unLinkProjects =[
         logo:chat1,
         poster:chat,
         github:"https://github.com/Mohammadazadbc/Realtime-chat-React-Node-Socket.io",
-        description: "It is a project built with Node.js and Socket.IO that allows two users to chat together in real-time. In this project, more focus is placed on functionality rather than design." ,
+        description: "It is a project built with Node.js and Socket.IO that allows two users to chat together in real-time. In this project, more focus is placed on functionality rather than design."
     },
     {
         id:5,
